@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: About Me
 permalink: /about/Eli Gilmour
 ---
 This site is built with [fastpages](https://github.com/EliGilmour/Eli-1)
