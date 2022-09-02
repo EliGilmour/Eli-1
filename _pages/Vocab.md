@@ -4,6 +4,7 @@ title: Vocab
 permalink: /vocab/
 ---
 
+# Vocab
 ## Vocab list
 
 Input: Data going into to the code
