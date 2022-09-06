@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /weekly work/
+---
+
 # Weekly work
 ## Trimester work
 
