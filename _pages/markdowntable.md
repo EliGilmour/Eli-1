@@ -1,17 +1,8 @@
 ---
 layout: page
-permalink: /weekly work/
+permalink: /WeeklyWork/
+title: Weekly work
 ---
-
-
-# Weekly work
-## Trimester work
-
-- toc: true
-- Badges: true
-- comments: true
-- author: Eli gilmour
-- Categories: [fastpages,]
 
 | Week        | Projects    |
 | ----------- | ----------- |
