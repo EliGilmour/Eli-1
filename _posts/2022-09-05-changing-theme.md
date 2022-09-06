@@ -1,12 +1,12 @@
-# HTML Fragments (changing theme)
-
-Fastpages basic theme  is minima but there are other themes you can choose from and I used time machine.
-
-- toc: true
-- Badges: true
-- comments: false
-- author: Eli gilmour
-- Categories: [fastpages, markdown]
+---
+toc: true
+layout: post
+Badges: true
+comments: false
+author: Eli gilmour
+categories: [fastpages, markdown]
+title: HTML Fragments ( changing theme )
+---
 
 Here is the results
 
