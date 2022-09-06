@@ -117,6 +117,22 @@
   
 
   
+      ,"page4": {
+          "title": "",
+          "content": "Weekly work . Trimester work . toc: true | Badges: true | comments: true | author: Eli gilmour | Categories: [fastpages, juypter] | . Week Projects . 0 | My first jupyter notebook,—&gt; My First Markdown. | . 1 | Football quiz,—&gt; key tools check. | . 2 | [changing a theme],—&gt; lists, Dictionaries, Iteration. | .",
+          "url": "https://eligilmour.github.io/Eli-1/weekly%20work/",
+          "relUrl": "/weekly work/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+
+  
   
 
   
@@ -125,18 +141,13 @@
   
 
   
-
-  
   
 
   
   
 
   
-  
-
-  
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://eligilmour.github.io/Eli-1/robots.txt",
