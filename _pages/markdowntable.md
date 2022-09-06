@@ -11,7 +11,7 @@ permalink: /weekly work/
 - Badges: true
 - comments: true
 - author: Eli gilmour
-- Categories: [fastpages, juypter]
+- Categories: [fastpages,]
 
 | Week        | Projects    |
 | ----------- | ----------- |
