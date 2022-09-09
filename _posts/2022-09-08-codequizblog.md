@@ -5,7 +5,7 @@ Badges: true
 comments: false
 author: Eli gilmour
 categories: [fastpages, markdown]
-image: images/downloads/quiz math time.png
+image: images/some_downloads/your_quiz math time.png
 title: Making a quiz using App Lab
 ---
 
