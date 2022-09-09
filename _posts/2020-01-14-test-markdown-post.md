@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: A minimal example of using markdown with fastpages.
 categories: [markdown]
-image: time machine screenshot.png
+image: [time machine theme]({{site.baseurl}}/images/time machine screenshot.png)
 title: An Example Markdown Post
 ---
 # Example Markdown Post
