@@ -23,3 +23,6 @@ Some challenges that I faced while creating my quiz using code.org was knowing w
 
 ## 5. successes
 Their were many successes throught the week that helped me achive finishing my quiz. At the start it was pretty dificult because I didn't know what any of the commands and functions mean, but as I played with teh software I learned how many of the functions worked. I figured out how to make a quiz using three different questions and different ways to answer each question. The first question I created a mulitiple choice question just using buttons, Then for the second question I created a check the box type answer, and lastly I created a dropdown menu type of question.
+
+## Link to quiz
+[here] (https://studio.code.org/projects/applab/HHsFRXxN1Q0wzAs83uiphAgayPKwbPhqzBlTxc-ffn8)
