@@ -5,7 +5,7 @@ Badges: true
 comments: false
 author: Eli gilmour
 categories: [fastpages, markdown]
-image: images/some_downloads/your_pink math.png
+image: images/_downloads/_pink math.png
 title: Making a quiz using App Lab
 ---
 
