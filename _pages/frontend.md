@@ -6,10 +6,4 @@ permalink: /frontend/overview
 
 {% include nav_frontend.html %}
 
-<table>
-    <tr>
-        <td><img src="{{site.baseurl}}//images/logo 150x150 px.png" height="60" title="Frontend" alt=""></td>
-        <td><a href="{{site.baseurl}}/frontend/overview">Overview</a></td>
-        <td><a href="{{site.baseurl}}/frontend/Javascript tutorial">Javascript tutorial</a></td>
-    </tr>
-</table>
+
