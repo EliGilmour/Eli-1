@@ -148,9 +148,20 @@
   
 
   
+      ,"page3": {
+          "title": "Frontend",
+          "content": "| Overview | Javascript tutorial | .",
+          "url": "https://eligilmour.github.io/Eli-1/frontend/overview",
+          "relUrl": "/frontend/overview",
+          "date": ""
+      }
+      
+  
 
   
-      ,"page4": {
+
+  
+      ,"page5": {
           "title": "Weekly work",
           "content": "Week Projects . 0 | My first jupyter notebook,—&gt; My First Markdown. | . 1 | Football quiz,—&gt; key tools check. | . 2 | changing a theme,—&gt; lists, Dictionaries, Iteration. | . 3 | Making quiz using app lab. | . 4 | collaboration Notes,—&gt;Psychology of Happiness. | .",
           "url": "https://eligilmour.github.io/Eli-1/WeeklyWork/",
@@ -180,7 +191,7 @@
   
 
   
-      ,"page12": {
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://eligilmour.github.io/Eli-1/robots.txt",
