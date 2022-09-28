@@ -1,6 +1,11 @@
 ---
 keywords: fastai
-title: Title
+title: Javascript
+toc: true
+Badges: true
+comments: false
+author: Eli gilmour
+Categories: [fastpages,javascript]
 nb_path: _notebooks/2022-09-26-javascript.ipynb
 layout: notebook
 ---
@@ -33,45 +38,9 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  throw new Error(&#39;No native build was found for &#39; + target + &#39;\n    loaded from: &#39; + dir + &#39;\n&#39;)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  ^
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">Error: No native build was found for platform=linux arch=x64 runtime=electron abi=48 uv=1 libc=glibc node=6.11.2
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    loaded from: /home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.load.path (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60:9)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at load (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:22:30)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.&lt;anonymous&gt; (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq/binding.js:1:105)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module._compile (module.js:570:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.Module._extensions..js (module.js:579:10)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.load (module.js:487:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at tryModuleLoad (module.js:446:12)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.Module._load (module.js:438:3)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.require (module.js:497:17)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at require (internal/module.js:20:19). 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>whats up everyone
+</pre>
 </div>
 </div>
 
@@ -101,45 +70,9 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  throw new Error(&#39;No native build was found for &#39; + target + &#39;\n    loaded from: &#39; + dir + &#39;\n&#39;)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  ^
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">Error: No native build was found for platform=linux arch=x64 runtime=electron abi=48 uv=1 libc=glibc node=6.11.2
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    loaded from: /home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.load.path (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60:9)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at load (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:22:30)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.&lt;anonymous&gt; (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq/binding.js:1:105)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module._compile (module.js:570:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.Module._extensions..js (module.js:579:10)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.load (module.js:487:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at tryModuleLoad (module.js:446:12)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.Module._load (module.js:438:3)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.require (module.js:497:17)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at require (internal/module.js:20:19). 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>whats up everyone!
+</pre>
 </div>
 </div>
 
@@ -171,46 +104,317 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  throw new Error(&#39;No native build was found for &#39; + target + &#39;\n    loaded from: &#39; + dir + &#39;\n&#39;)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">  ^
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">Error: No native build was found for platform=linux arch=x64 runtime=electron abi=48 uv=1 libc=glibc node=6.11.2
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    loaded from: /home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq
-</span>
-<span class="ansi-red-intense-fg ansi-bold">
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.load.path (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:60:9)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at load (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:22:30)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.&lt;anonymous&gt; (/home/eli/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq/binding.js:1:105)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module._compile (module.js:570:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Object.Module._extensions..js (module.js:579:10)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.load (module.js:487:32)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at tryModuleLoad (module.js:446:12)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Function.Module._load (module.js:438:3)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at Module.require (module.js:497:17)
-</span>
-<span class="ansi-red-intense-fg ansi-bold">    at require (internal/module.js:20:19). 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>whats up everyone!
+</pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Reuse of logIT&quot;</span><span class="p">)</span>
+<span class="nx">logIt</span><span class="p">(</span><span class="s2">&quot;Hello, Students!&quot;</span><span class="p">);</span>
+<span class="nx">logIt</span><span class="p">(</span><span class="mf">2022</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Reuse of logIT
+Hello, Students!
+2022
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">logItType</span><span class="p">(</span><span class="nx">output</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">output</span><span class="p">,</span> <span class="s2">&quot;;&quot;</span><span class="p">,</span> <span class="nx">output</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Looking at dynamic nature of types in JavaScript&quot;</span><span class="p">)</span>
+<span class="nx">logItType</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">);</span> <span class="c1">// String</span>
+<span class="nx">logItType</span><span class="p">(</span><span class="mf">2022</span><span class="p">);</span>    <span class="c1">// Number</span>
+<span class="nx">logItType</span><span class="p">([</span><span class="mf">1</span><span class="p">,</span> <span class="mf">2</span><span class="p">,</span> <span class="mf">3</span><span class="p">]);</span>  <span class="c1">// Object is generic for this Array, which similar to Python List</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Looking at dynamic nature of types in JavaScript
+string ; hello
+number ; 2022
+object ; [ 1, 2, 3 ]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kd">function</span> <span class="nx">PrintType</span><span class="p">(</span><span class="nx">output</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// function to output data type and data into terminal</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">output</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="nx">output</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">// define a function to hold data for a Person</span>
+<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">Grad</span><span class="p">,</span> <span class="nx">residence</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">Grad</span> <span class="o">=</span> <span class="nx">Grad</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">residence</span> <span class="o">=</span> <span class="nx">residence</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// define a setter for role in Person data</span>
+<span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">setRole</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// define a JSON conversion &quot;method&quot; associated with Person</span>
+<span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toJSON</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">age</span><span class="p">,</span> <span class="nx">residence</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">residence</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// make a new Person and assign to variable student</span>
+<span class="kd">var</span> <span class="nx">student</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;elijah&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="s2">&quot;SanDiego&quot;</span><span class="p">);</span>  <span class="c1">// object type is easy to work with in JavaScript</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">student</span><span class="p">);</span>  <span class="c1">// before role</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">student</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
+
+<span class="c1">// output of Object and JSON/string associated with student</span>
+<span class="nx">student</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Student&quot;</span><span class="p">);</span>   <span class="c1">// set the role</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">student</span><span class="p">);</span> 
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">student</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">());</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>object ,  Person { name: &#39;elijah&#39;, Grad: 2024, residence: &#39;SanDiego&#39;, role: &#39;&#39; }
+string ,  {&#34;name&#34;:&#34;elijah&#34;,&#34;residence&#34;:&#34;SanDiego&#34;,&#34;role&#34;:&#34;&#34;}
+object ,  Person {
+  name: &#39;elijah&#39;,
+  Grad: 2024,
+  residence: &#39;SanDiego&#39;,
+  role: &#39;Student&#39; }
+string ,  {&#34;name&#34;:&#34;elijah&#34;,&#34;residence&#34;:&#34;SanDiego&#34;,&#34;role&#34;:&#34;Student&#34;}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a student Array of Person(s)</span>
+<span class="kd">var</span> <span class="nx">students</span> <span class="o">=</span> <span class="p">[</span> 
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Elijah &quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Josh&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Chris&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Jeffery&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">)</span>
+<span class="p">];</span>
+<span class="kd">var</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr. M&quot;</span><span class="p">,</span> <span class="s2">&quot;?&quot;</span><span class="p">,</span> <span class="s2">&quot;San Diego&quot;</span><span class="p">)</span>
+
+<span class="c1">// define a classroom and build Classroom objects and json</span>
+<span class="kd">function</span> <span class="nx">Classroom</span><span class="p">(</span><span class="nx">teacher</span><span class="p">,</span> <span class="nx">students</span><span class="p">){</span> <span class="c1">// 1 teacher, many student</span>
+    <span class="c1">// start Classroom with Teacher</span>
+    <span class="nx">teacher</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">teacher</span> <span class="o">=</span> <span class="nx">teacher</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">classroom</span> <span class="o">=</span> <span class="p">[</span><span class="nx">teacher</span><span class="p">];</span>
+    <span class="c1">// add each Student to Classroom</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">students</span> <span class="o">=</span> <span class="nx">students</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">students</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">student</span> <span class="p">=&gt;</span> <span class="p">{</span> <span class="nx">student</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Student&quot;</span><span class="p">);</span> <span class="k">this</span><span class="p">.</span><span class="nx">classroom</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">student</span><span class="p">);</span> <span class="p">});</span>
+    <span class="c1">// build json/string format of Classroom</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">json</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">classroom</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">person</span> <span class="p">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">json</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">person</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">()));</span>
+<span class="p">}</span>
+
+<span class="c1">// make a CompSci classroom from formerly defined teacher and students</span>
+<span class="nx">compsci</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Classroom</span><span class="p">(</span><span class="nx">teacher</span><span class="p">,</span> <span class="nx">students</span><span class="p">);</span>
+
+<span class="c1">// output of Objects and JSON in CompSci classroom</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">classroom</span><span class="p">);</span>  <span class="c1">// constructed classroom object</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">classroom</span><span class="p">[</span><span class="mf">0</span><span class="p">].</span><span class="nx">name</span><span class="p">);</span>  <span class="c1">// abstract 1st objects name</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">json</span><span class="p">[</span><span class="mf">0</span><span class="p">]);</span>  <span class="c1">// show json conversion of 1st object to string</span>
+<span class="nx">PrintType</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">json</span><span class="p">[</span><span class="mf">0</span><span class="p">]));</span>  <span class="c1">// show JSON.parse inverse of JSON.stringify</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>object ,  [ Person {
+    name: &#39;Mr. M&#39;,
+    Grad: &#39;?&#39;,
+    residence: &#39;San Diego&#39;,
+    role: &#39;Teacher&#39; },
+  Person {
+    name: &#39;Elijah &#39;,
+    Grad: 2024,
+    residence: &#39;San Diego&#39;,
+    role: &#39;Student&#39; },
+  Person {
+    name: &#39;Josh&#39;,
+    Grad: 2024,
+    residence: &#39;San Diego&#39;,
+    role: &#39;Student&#39; },
+  Person {
+    name: &#39;Chris&#39;,
+    Grad: 2024,
+    residence: &#39;San Diego&#39;,
+    role: &#39;Student&#39; },
+  Person {
+    name: &#39;Jeffery&#39;,
+    Grad: 2023,
+    residence: &#39;San Diego&#39;,
+    role: &#39;Student&#39; } ]
+string ,  Mr. M
+string ,  {&#34;name&#34;:&#34;Mr. M&#34;,&#34;residence&#34;:&#34;San Diego&#34;,&#34;role&#34;:&#34;Teacher&#34;}
+object ,  { name: &#39;Mr. M&#39;, residence: &#39;San Diego&#39;, role: &#39;Teacher&#39; }
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define an HTML conversion &quot;method&quot; associated with Classroom</span>
+<span class="nx">Classroom</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">_toHtml</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// HTML Style is build using inline structure</span>
+    <span class="kd">var</span> <span class="nx">style</span> <span class="o">=</span> <span class="p">(</span>
+      <span class="s2">&quot;display:inline-block;&quot;</span> <span class="o">+</span>
+      <span class="s2">&quot;border: 2px solid grey;&quot;</span> <span class="o">+</span>
+      <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span>
+    <span class="p">);</span>
+  
+    <span class="c1">// HTML Body of Table is build as a series of concatenations (+=)</span>
+    <span class="kd">var</span> <span class="nx">body</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+    <span class="c1">// Heading for Array Columns</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Name&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Grad&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Residence&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Role&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/tr&gt;&quot;</span><span class="p">;</span>
+    <span class="c1">// Data of Array, iterate through each row of compsci.classroom </span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">compsci</span><span class="p">.</span><span class="nx">classroom</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// tr for each row, a new line</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+      <span class="c1">// td for each column of data</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">Grad</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">residence</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">role</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+      <span class="c1">// tr to end line</span>
+      <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
+    <span class="p">}</span>
+  
+     <span class="c1">// Build and HTML fragment of div, table, table body</span>
+    <span class="k">return</span> <span class="p">(</span>
+      <span class="s2">&quot;&lt;div style=&#39;&quot;</span> <span class="o">+</span> <span class="nx">style</span> <span class="o">+</span> <span class="s2">&quot;&#39;&gt;&quot;</span> <span class="o">+</span>
+        <span class="s2">&quot;&lt;table&gt;&quot;</span> <span class="o">+</span>
+          <span class="nx">body</span> <span class="o">+</span>
+        <span class="s2">&quot;&lt;/table&gt;&quot;</span> <span class="o">+</span>
+      <span class="s2">&quot;&lt;/div&gt;&quot;</span>
+    <span class="p">);</span>
+  
+  <span class="p">};</span>
+  
+  <span class="c1">// IJavaScript HTML processor receive parameter of defined HTML fragment</span>
+  <span class="nx">$$</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">_toHtml</span><span class="p">());</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div style='display:inline-block;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>Grad</mark></th><th><mark>Residence</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr. M</td><td>?</td><td>San Diego</td><td>Teacher</td><tr><tr><td>Elijah </td><td>2024</td><td>San Diego</td><td>Student</td><tr><tr><td>Josh</td><td>2024</td><td>San Diego</td><td>Student</td><tr><tr><td>Chris</td><td>2024</td><td>San Diego</td><td>Student</td><tr><tr><td>Jeffery</td><td>2023</td><td>San Diego</td><td>Student</td><tr></table></div>
+</div>
+
 </div>
 
 </div>
