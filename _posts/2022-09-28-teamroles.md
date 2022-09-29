@@ -8,7 +8,9 @@ categories: [fastpages, markdown]
 title: Final Project plan
 ---
 
-![](vscode-remote://wsl%2Bubuntu/home/eli/vscode/Eli-1/images/Scrum%20Process.png)
+Scrum board
+
+![time machine theme]({{site.baseurl}}/images/time machine screenshot.png)
 
 # Team roles
 - jeffery -> DevOps
