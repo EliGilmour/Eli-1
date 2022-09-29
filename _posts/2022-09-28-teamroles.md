@@ -10,7 +10,13 @@ title: Final Project plan
 
 Scrum board
 
-![time machine theme]({{site.baseurl}}/images/time machine screenshot.png)
+![]({{site.baseurl}}/images/Scrum Process.png)
+
+# First Idea
+- data abstraction with a 2D array when loading the board and pieces.
+- procedural abstraction with how the player interacts with the screen and interacts with the pieces on the board.
+
+
 
 # Team roles
 - jeffery -> DevOps
