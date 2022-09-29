@@ -8,6 +8,8 @@ categories: [fastpages, markdown]
 title: Final Project plan
 ---
 
+![](vscode-remote://wsl%2Bubuntu/home/eli/vscode/Eli-1/images/Scrum%20Process.png)
+
 # Team roles
 - jeffery -> DevOps
 - Josh -> Frontend
@@ -15,6 +17,3 @@ title: Final Project plan
 - Khalid -> Frontend
 - Eli -> Backend
 - ryan -> scrum master
-
-
-![](vscode-remote://wsl%2Bubuntu/home/eli/vscode/Eli-1/images/Scrum%20Process.png)
