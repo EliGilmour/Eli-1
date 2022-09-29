@@ -16,4 +16,5 @@ title: Final Project plan
 - Eli -> Backend
 - ryan -> scrum master
 
+
 ![Scrum Board]({{site.baseurl}}/images/scrum Process.png)
