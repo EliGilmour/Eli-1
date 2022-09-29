@@ -17,4 +17,4 @@ title: Final Project plan
 - ryan -> scrum master
 
 
-![Scrum Board]({{site.baseurl}}/images/scrum Process.png)
+![](vscode-remote://wsl%2Bubuntu/home/eli/vscode/Eli-1/images/Scrum%20Process.png)
