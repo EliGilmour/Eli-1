@@ -16,7 +16,7 @@ Scrum board
 - data abstraction with a 2D array when loading the board and pieces.
 - procedural abstraction with how the player interacts with the screen and interacts with the pieces on the board.
 
-
+> Important: Pay attention! It's important.
 
 # Team roles
 - jeffery -> DevOps
