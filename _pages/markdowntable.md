@@ -13,3 +13,5 @@ title: Weekly work
 | 4 | [collaboration Notes](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/09/20/collabrationnotes1.html),--->[Psychology of Happiness](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/09/20/psychology.html). |
 | 5 | [Javascript](https://eligilmour.github.io/Eli-1/2022/09/26/javascript.html),---> [Final project plan](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/09/28/teamroles.html)
 | 6 | [college board quiz](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/02/collegeboard.html),--->
+| 7 | [Stock Final Project plan](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/09/stockapp.html),--->[Identifying and Correcting Errors Quiz](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/09/1.4quiz.html)
+[Burger,Fries,Drink code](https://eligilmour.github.io/Eli-1/collegeboard/error),--->
