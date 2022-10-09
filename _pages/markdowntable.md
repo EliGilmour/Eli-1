@@ -14,4 +14,4 @@ title: Weekly work
 | 5 | [Javascript](https://eligilmour.github.io/Eli-1/2022/09/26/javascript.html),---> [Final project plan](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/09/28/teamroles.html)
 | 6 | [college board quiz](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/02/collegeboard.html),--->
 | 7 | [Stock Final Project plan](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/09/stockapp.html),--->[Identifying and Correcting Errors Quiz](https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/10/09/1.4quiz.html)
-| 7 | [Burger,Fries,Drink code](https://eligilmour.github.io/Eli-1/collegeboard/error),--->
+| 7 | [Burger,Fries,Drink code Block Fix](https://eligilmour.github.io/Eli-1/collegeboard/error),--->
