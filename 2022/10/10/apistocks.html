@@ -165,6 +165,7 @@ window.onload = wrap_img;
 
 <span class="n">aggs</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get_aggs</span><span class="p">(</span><span class="s2">"AAPL"</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">"day"</span><span class="p">,</span> <span class="s2">"2022-04-04"</span><span class="p">,</span> <span class="s2">"2022-04-04"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">aggs</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">aggs</span><span class="o">.</span><span class="n">open</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -179,6 +180,21 @@ window.onload = wrap_img;
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[Agg(open=174.57, high=178.49, low=174.44, close=178.44, volume=76545983.0, vwap=177.4855, timestamp=1649044800000, transactions=630374, otc=None)]
 </pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/eli/vscode/Eli-1/_notebooks/2022-10-10-apistocks.ipynb Cell 3</span> in <span class="ansi-cyan-fg">&lt;cell line: 7&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-10-apistocks.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4'&gt;5&lt;/a&gt;</span> aggs = client.get_aggs("AAPL", 1, "day", "2022-04-04", "2022-04-04")
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-10-apistocks.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span> print(aggs)
+<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-10-apistocks.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D?line=6'&gt;7&lt;/a&gt;</span> print(aggs.open)
+
+<span class="ansi-red-fg">AttributeError</span>: 'list' object has no attribute 'open'</pre>
 </div>
 </div>
 
