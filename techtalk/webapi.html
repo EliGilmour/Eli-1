@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>
 
@@ -466,8 +466,7 @@ Jokes Count: 18
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># server = "http://127.0.0.1:5000/" # run local</span>
-<span class="n">server</span> <span class="o">=</span> <span class="s1">'https://flask.nighthawkcodingsociety.com/'</span> <span class="c1"># run from web server</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">server</span> <span class="o">=</span> <span class="s1">'https://flask.nighthawkcodingsociety.com/'</span> <span class="c1"># run from web server</span>
 <span class="n">url</span> <span class="o">=</span> <span class="n">server</span> <span class="o">+</span> <span class="s2">"api/jokes/"</span>
 <span class="n">responses</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1"># responses list</span>
 
@@ -503,6 +502,29 @@ Jokes Count: 18
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb Cell 7</span> in <span class="ansi-cyan-fg">&lt;cell line: 7&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D?line=3'&gt;4&lt;/a&gt;</span> responses = []  # responses list
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span> # Get the count of jokes on server
+<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D?line=6'&gt;7&lt;/a&gt;</span> count_response = requests.get(url+"count")
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D?line=7'&gt;8&lt;/a&gt;</span> count_json = count_response.json()
+<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/eli/vscode/Eli-1/_notebooks/2022-10-17-PBL-webapi_tutorial.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D?line=8'&gt;9&lt;/a&gt;</span> count = count_json['count']
+
+<span class="ansi-red-fg">NameError</span>: name 'requests' is not defined</pre>
+</div>
+</div>
+
 </div>
 </div>
 
