@@ -32,3 +32,15 @@ title: Internet Quiz
 ( also to talk about artists )
 - Comments ( asking questions )
 
+#  Aarav , Braeden , Tigran , Vunsh ( APCSA )
+- Creating Quizme to make school easier with using flashcards and multiple choice questions to replace quizlet.
+- Using Visual studios live share to share code outside of school
+- Creating customer feedback on website 
+- Video tutorial for people who can't read english
+- Tigran is frontend developer
+- Aarav is the scrum master
+- Frontend code uses javascript, css, and HTML
+- Vunsh is devops and worked on Deployment using AWS
+- Braeden is Backend Developer
+- Using lists to store flashcard information and store data
+- 
