@@ -28,8 +28,7 @@ title: Blogging about Video Roles
 - Finn is dev ops 
 - Max is the backend developer 
 - Parker is the frontend developer 
-- They are going to use blooging to talk about hacks and development 
-( also to talk about artists )
+- They are going to use blooging to talk about hacks and development ( also to talk about artists )
 - Comments ( asking questions )
 
 #  Aarav , Braeden , Tigran , Vunsh ( APCSA )
@@ -43,4 +42,4 @@ title: Blogging about Video Roles
 - Vunsh is devops and worked on Deployment using AWS
 - Braeden is Backend Developer
 - Using lists to store flashcard information and store data
-- 
+
