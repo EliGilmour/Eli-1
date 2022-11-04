@@ -3,6 +3,7 @@ layout: page
 title: About Me
 permalink: /about/Eli Gilmour
 ---
+
 This site is built with [fastpages](https://github.com/EliGilmour/Eli-1)
 
 ![about me photo]({{site.baseurl}}/images/about me.png)

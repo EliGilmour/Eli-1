@@ -1,7 +1,7 @@
 ---
 keywords: fastai
 description: Using bash kernal to create a jupyter notebook and showing all the key tools installed 
-title: Bash Notebook
+title: Bash Notebook 
 toc: true
 branch: master
 badges: true
