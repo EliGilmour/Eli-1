@@ -27,7 +27,7 @@ title: Night@Museum
 - This is Ella Duggans art ( Ap Studio Art )
 - This Drawing was very unique and filled with lots of details.
 - The colors and texture are very realistic and the concept of the drawing is amazing.
-- I was Very impressed and this is teh drawing that really stood out to me.
+- I was Very impressed and this is the drawing that really stood out to me.
 
 
 
