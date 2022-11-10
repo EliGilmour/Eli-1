@@ -14,7 +14,7 @@ title: Tri 1 Final Test Corrections
 
 # Question 28 ( wrong )
 
-![photo]({{site.baseurl}}/images/IMG_7547.JPG)
+![photo]({{site.baseurl}}/images/question 28.png)
 
 - I put answer A because I thought that if the number of units is greater than 25 it would charge them 7 dollars after that.
 - But Answer C is correct because it shows that when the number of units is greater than 25, it would charge them 7 dollars and the code looks like
