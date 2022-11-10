@@ -14,7 +14,7 @@ title: Blogging about Video Roles
 - Ava is the scrum master and she has been helping everyone with individual assignments and overlooking everyhting to make sure it works.
 - Alexa is the frontend and she has been working on the fastpages creating the looks of the website.
 - Antony is the Backend and he has been creating tables using json and using buttons to manage how many products of each item they have.
-- The cool coders used a stock api and created a list of items including hoodies and pants and then it prints teh quantity of the item.
+- The cool coders used a stock api and created a list of items including hoodies and pants and then it prints the quantity of the item.
 
 # Jake , Finn, Max, Parker ( Period 4 )
 - their customer targert needs: 
