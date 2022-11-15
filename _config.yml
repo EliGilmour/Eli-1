@@ -38,9 +38,11 @@ baseurl: "/Eli-1" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
+skin: dark
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: NighthawkCoding
+    github: nighthawkcoders
+    youtube_channel: UClIKOsDS5dsfzFA3zveDT3Q
 
 # Set this to true to get LaTeX math equation support
 use_math: 
