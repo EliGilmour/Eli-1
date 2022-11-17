@@ -8,7 +8,7 @@ categories: [fastpages, markdown]
 title: Tri 1 Final Test Corrections
 ---
 
-# Score 123455
+# Score
 
 48/50
 
