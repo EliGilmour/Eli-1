@@ -52,7 +52,7 @@ type: pbl
             <tr>
                 {% comment %}Build many bits{% endcomment %}
                 {% for i in (0..bits) %}
-                <td><img class="img-responsive py-3" id="bulb{{ i }}" src="{{site.baseurl}}/images/bulb_off.png" alt="" width="40" height="Auto">
+                <td><img class="img-responsive py-3" id="bulb{{ i }}" src="{{site.baseurl}}/images/donald trump.png" alt="" width="40" height="Auto">
                     <button type="button" id="butt{{ i }}" onclick="javascript:toggleBit({{ i }})">Turn on</button>
                 </td>
                 {% endfor %}
@@ -72,7 +72,7 @@ type: pbl
     const BITS = {{ BITS }};
     const MAX = 2 ** BITS - 1;
     const MSG_ON = "Turn on";
-    const IMAGE_ON = "{{site.baseurl}}/images/bulb_on.gif";
+    const IMAGE_ON = "{{site.baseurl}}/images/donald trump.png";
     const MSG_OFF = "Turn off";
     const IMAGE_OFF = "{{site.baseurl}}/images/bulb_off.png"
 
