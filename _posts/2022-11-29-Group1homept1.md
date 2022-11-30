@@ -59,3 +59,30 @@ c. An integer is just numbers while a string is just words
 d. An integer can be changed with addition and subtraction and a string is a set number or string of letters.
 
 Answer = D
+
+# My practice questions
+
+1. You want to store the number of cheeseburgers in a resturant. What is the best variable name and data type?
+
+A. numcheeseburgers, integer
+b. cheeseburgers, text
+c. numcheeseburgers, string
+d. ischeeseburgers, boolean
+
+Answer = ?
+
+2. How do you store the amount of food the students eat in the classroom? Choose the best variable name and data type:
+
+A. IDfood, string
+b. whatfood, integer
+c. amountoffood, boolean
+d. amounoffood, integer
+
+Answer = ?
+
+3. Is eatingallthefoodintheworld a better option than eatingfood?
+
+A. yes
+b. No
+
+Answer = ?
