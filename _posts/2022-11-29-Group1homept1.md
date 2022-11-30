@@ -8,7 +8,8 @@ categories: [fastpages, markdown]
 title: Unit section 1-2 homework
 ---
 
-You want to store the number of apples in a shop. What is the best variable name and data type?
+# Practice questions
+1. You want to store the number of apples in a shop. What is the best variable name and data type?
 
 A. numApples, integer
 b. apples, text
@@ -17,7 +18,7 @@ d. isApples, boolean
 
 Answer = A
 
-You are storing true or false in a variable that asks if the classroom is cold. What is the best variable name and data type?
+2. You are storing true or false in a variable that asks if the classroom is cold. What is the best variable name and data type?
 
 A. weather, integer
 b. weather, boolean
@@ -26,7 +27,7 @@ d. cold, string
 
 Answer = c
 
-How do you store the ID numbers for the students in the classroom? Choose the best variable name and data type:
+3. How do you store the ID numbers for the students in the classroom? Choose the best variable name and data type:
 
 A. IDnumber, string
 b. whatID, integer
@@ -35,14 +36,14 @@ d. IDnumberofthestudentsintheclassroom, integer
 
 Answer = A
 
-Is itisRainingtodayinsandiego a better option than isRaining?
+4. Is itisRainingtodayinsandiego a better option than isRaining?
 
 A. Yes
 b. No
 
 Answer = no
 
-Which of the following types of data is best for a true or false question?
+5. Which of the following types of data is best for a true or false question?
 
 A. Boolean
 b. String
@@ -51,7 +52,7 @@ d. All of the above
 
 Answer = A
 
-What is the difference between an integer and string of numbers?
+6. What is the difference between an integer and string of numbers?
 
 A. An integer is just a set data type while a string of numbers can be changed with addition and subtraction
 b. An integer can be letters and numbers while a string is just numbers
