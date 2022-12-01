@@ -2,13 +2,11 @@
 keywords: fastai
 description: A discussion on Web APIs.  This is about creating a Web API (Jokes), and creating API that retains data as long as the Web Server is running.  This is done using List and Dictionaries as the backend.  Ultimately, this example could be extended by adding a database to the backend.  However, for now, we are focussing on interaction of Frontend to Backend, this is called an Endpoint.
 title: Python Web API Endpoints using Jokes
-toc: true
-comments: false
-permalink: /techtalk/webapi
 image: /images/python_restapi.png
 categories: [3.B, 5.A, 5.B, C5.0, C7.0, C7.6]
-type: pbl
-week: 9
+type: pbl toc: true
+comments: false
+permalink: - week: 9
 nb_path: _notebooks/2022-10-17-PBL-webapi_tutorial.ipynb
 layout: notebook
 ---
