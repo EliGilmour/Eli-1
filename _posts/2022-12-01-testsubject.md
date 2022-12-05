@@ -5,7 +5,7 @@ Badges: true
 comments: false
 author: Eli gilmour
 categories: [fastpages, markdown]
-title: Unit section 5-7 Homeowrk
+title: Unit section 5-7 Homework
 ---
 
 # 3.5 Binary Hacks
