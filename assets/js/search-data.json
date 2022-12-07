@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "Lesson Grades for unit section 3.1-3.4",
+            "title": "unit 3 section 8/10 Homework",
             "content": "excercise 1 . list = [1, 2, 3, 4, 5] reversed = [] for value in list: reversed = [value] + reversed print(reversed) . excercise 2 . list = [1, 2, 3, 4, 5] reversed = [] for value in list: reversed = [value] + reversed print(reversed) . reflection . I learned how to create a bubble sort list and learned what each command does and how to write it. Also how to create a reversed list and print. . Quiz corrections . . I got this question wrong because I thought that the position of an element in a list, starts at 1 but it starts at zero. . My Notebook isn’t working so I put the code in a Markdown. . . . I got this question wrong because I thought that the position of an element in a list, starts at 1 but it starts at zero. .",
             "url": "https://eligilmour.github.io/Eli-1/fastpages/markdown/2022/12/06/8and10hw.html",
             "relUrl": "/fastpages/markdown/2022/12/06/8and10hw.html",
