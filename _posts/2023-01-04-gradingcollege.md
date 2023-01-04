@@ -16,7 +16,7 @@ title: College Board Grading
 |Row 3| 1 |
 |Row 4| 0 |
 |Row 5| 1 |
-|Row 6||
+|Row 6| 1 |
 
 1: They get points because The video demonstrates the running of the program including input, output, and program functionallly.
 
@@ -26,5 +26,7 @@ title: College Board Grading
 
 4: They get no points beacuse The code segment consisting of the procedure is not included in the written responses section. The procedure is a built-in or existing procedure or language structure, such as an event handler or main method.
 
-5: The response explains in great detail how the algorithm in the procedure works so it can be
+5: They get points because The response explains in great detail how the algorithm in the procedure works so it can be
 recreated. The student-developed algorithm within procedure.
+
+6: they get points because it describes two calls to the selected procedure identified in written response 3c. Each call must pass a  different arguments that causes a different segment of code in the algorithm to execute. describes the conditions being tested by each call to the procedure. 
