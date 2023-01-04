@@ -17,6 +17,7 @@ title: College Board Grading
 |Row 4| 0 |
 |Row 5| 1 |
 |Row 6| 1 |
+|Final Score| 5/6 |
 
 1: They get points because The video demonstrates the running of the program including input, output, and program functionallly.
 
