@@ -37,11 +37,11 @@ recreated. The student-developed algorithm within procedure.
 |---|---|
 |Row 1| 1 | 
 |Row 2| 1 | 
-|Row 3|  |
-|Row 4|  |
-|Row 5|  |
-|Row 6|  |
-|Final Score|  |
+|Row 3| 0 |
+|Row 4| 1 |
+|Row 5| 1 |
+|Row 6| 1 |
+|Final Score| 5/6 |
 
 1: The video demonstrates the running of the program functionality,
 output, and Input. Shows clearly how the program works and many different examples.
@@ -49,3 +49,9 @@ output, and Input. Shows clearly how the program works and many different exampl
 2: The written response includes two program code segments: one that shows how data has been stored in
 this list and one that shows the data in this same list being
 used as part of fulfilling the program’s purpose. It also identifies the name of the variable representing the list being used in this response. 
+
+3: The explantation does not apply to the selected list and the use of their list is not used in the program. The use of their list does not result in a program that is easier to develop, meaning alternatives presented are equally complex or potentially easier.
+
+4: The program shows a student-developed procedure Requirements for program code segments with at least one parameter that has an effect
+on the functionality of the procedure, and one showing where the student-developed
+procedure is being called.
