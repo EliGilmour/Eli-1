@@ -31,3 +31,17 @@ title: College Board Grading
 recreated. The student-developed algorithm within procedure.
 
 6: they get points because it describes two calls to the selected procedure identified in written response 3c. Each call must pass a  different arguments that causes a different segment of code in the algorithm to execute. describes the conditions being tested by each call to the procedure. 
+
+# Submission 2
+
+|---|---|
+|Row 1| 1 | 
+|Row 2|  | 
+|Row 3|  |
+|Row 4|  |
+|Row 5|  |
+|Row 6|  |
+|Final Score|  |
+
+1: The video demonstrates the running of the program functionality,
+output, and Input. Shows clearly how the program works and many different examples.
