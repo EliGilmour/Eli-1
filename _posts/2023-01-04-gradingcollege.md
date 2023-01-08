@@ -55,3 +55,7 @@ used as part of fulfilling the program’s purpose. It also identifies the name 
 4: The program shows a student-developed procedure Requirements for program code segments with at least one parameter that has an effect
 on the functionality of the procedure, and one showing where the student-developed
 procedure is being called.
+
+5: The response was explained in great detailed steps on how the indentified algorithm works so someone else can recreate it. Also it includes sequencing, selection, and iteration.
+
+6: The response desribes the condition being tested by each call to the procedure. The response inculdes indentifies the result of each call.
