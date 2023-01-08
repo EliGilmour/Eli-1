@@ -36,7 +36,7 @@ recreated. The student-developed algorithm within procedure.
 
 |---|---|
 |Row 1| 1 | 
-|Row 2|  | 
+|Row 2| 1 | 
 |Row 3|  |
 |Row 4|  |
 |Row 5|  |
@@ -45,3 +45,7 @@ recreated. The student-developed algorithm within procedure.
 
 1: The video demonstrates the running of the program functionality,
 output, and Input. Shows clearly how the program works and many different examples.
+
+2: The written response includes two program code segments: one that shows how data has been stored in
+this list and one that shows the data in this same list being
+used as part of fulfilling the program’s purpose. It also identifies the name of the variable representing the list being used in this response. 
