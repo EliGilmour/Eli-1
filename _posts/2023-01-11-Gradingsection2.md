@@ -13,7 +13,7 @@ title: College Board Grading 2
 |---|---|
 |Row 1| 1 | 
 |Row 2| 0 | 
-|Row 3|  |
+|Row 3| 0 |
 |Row 4|  |
 |Row 5|  |
 |Row 6|  |
@@ -23,4 +23,4 @@ title: College Board Grading 2
 
 2: I would give this submission a 0 on this row because there is only one list is mentioned in this written response and we need more than one to get the point. The list also doesn't help the program function any better or more efficient.
 
-3: 
+3: I would give this submission a 0 in this row because it does provide a list, but very minimal information as to how it works or what it is. It needs to have more explantation for how and what the list is. 
