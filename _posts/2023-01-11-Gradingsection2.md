@@ -11,10 +11,16 @@ title: College Board Grading 2
 # Submission 1
 
 |---|---|
-|Row 1|  | 
-|Row 2|  | 
+|Row 1| 1 | 
+|Row 2| 0 | 
 |Row 3|  |
 |Row 4|  |
 |Row 5|  |
 |Row 6|  |
 |Final Score|  |
+
+1: I would give this submission a 1 on this row of the grading because this shows that when you input something into the game, theiir is an output that shows up which says if you got a point or not. It also shows the program functionally running smoothly.
+
+2: I would give this submission a 0 on this row because there is only one list is mentioned in this written response and we need more than one to get the point. The list also doesn't help the program function any better or more efficient.
+
+3: 
