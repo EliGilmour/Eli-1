@@ -80,6 +80,6 @@ drop-down box.” Could use more explantation.
 
 4: I would give this submission a 0 on this row because 
 
-5: I would give this submission a 1 on this row because 
+5: I would give this submission a 1 on this row because the written response includes code segments of a student developed program that has sequencing and iteration, etc ...
 
-6: I would give this submission a 1 on this row because 
+6: I would give this submission a 1 on this row because The response describes two calls to the procedure with different arguments that lead to different results from the procedure. Also it describes the conditions that being tested by each call to the procedure.
