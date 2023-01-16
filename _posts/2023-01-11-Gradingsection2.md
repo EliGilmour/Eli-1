@@ -76,9 +76,10 @@ drop-down box.” Could use more explantation.
 
 2: I would give this submission a 1 on this row because the program includes code segments that shows how the data is stored in the list. Also how the data is the same list being used to help the program run better. 
 
-3: I would give this submission a 0 on this row because 
+3: I would give this submission a 0 on this row because the code segments are not separetly included in the written response. Also the use of the list is irrelevant to teh programs functionally.
 
-4: I would give this submission a 0 on this row because 
+4: I would give this submission a 0 on this row because The procedure is a built-in or existing procedure or language structure, such as an event handler or
+main method, where the student only implements the body of the procedure rather than defining the name, return type, and parameters. 
 
 5: I would give this submission a 1 on this row because the written response includes code segments of a student developed program that has sequencing and iteration, etc ...
 
