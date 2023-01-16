@@ -58,3 +58,28 @@ overall function of the program.
 
 6: I would give this submission a 1 because the program describes two calls to the selected procedure
 identified in written response 3c. Also the program describes the conditions being tested by each call to the procedure. 
+
+# Submission 3 
+
+|---|---|
+|Row 1| 0 | 
+|Row 2| 1 | 
+|Row 3| 0 |
+|Row 4| 0 |
+|Row 5| 1 |
+|Row 6| 1 |
+|Final Score| 3/6 |
+
+1: I would give this submission a 0 on this row because the program did not show input and out well and the program functionally doesn't show clearly. Also the response describes the input and the output. For input, the response states that “the
+different button clicks to change the screens and the character names selected from each
+drop-down box.” Could use more explantation.
+
+2: I would give this submission a 1 on this row because the program includes code segments that shows how the data is stored in the list. Also how the data is the same list being used to help the program run better. 
+
+3: I would give this submission a 0 on this row because 
+
+4: I would give this submission a 0 on this row because 
+
+5: I would give this submission a 1 on this row because 
+
+6: I would give this submission a 1 on this row because 
