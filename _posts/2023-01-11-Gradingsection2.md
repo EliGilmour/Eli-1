@@ -33,3 +33,28 @@ and iteration and selection. Also their was very minimal description included.
 
 6: I would give this submission a 1 on this row because the response describes two different calls to the specific procedure to result in different code
 being executed. Also The response describes the conditions being tested.
+
+# Submission 2 
+
+|---|---|
+|Row 1| 1 | 
+|Row 2| 1 | 
+|Row 3| 0 |
+|Row 4| 0 |
+|Row 5| 1 |
+|Row 6| 1 |
+|Final Score| 4/6 |
+
+1: I would give this submission a 1 because The video demonstrates the running of the program, showing input into the program through keyboard typing. Also describes the input and output of the program demonstrated in the video. 
+
+2: I would give this submission a 1 because the respone has two code segments, one that shows how the data and program works and stored in a list. Also one segment that shows the data in the same list being used to make the program work.
+
+3: I would give this submission a 0 because the code segment lists are not separtely included in the written response. The written response also doesn't name the list being used. Their could be more of an explantation included too.
+
+4: I would give this submission a 0 because the code segment consisting of the procudure is not included in the written response. The written response describes what the procedure does independently without relating it to the
+overall function of the program.
+
+5: I would give this submission a 1 because the code segment includes sequencing, selection, and iteration. Also the explantation is in depth and very detailed on how the algorithm works.
+
+6: I would give this submission a 1 because the program describes two calls to the selected procedure
+identified in written response 3c. Also the program describes the conditions being tested by each call to the procedure. 
