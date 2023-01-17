@@ -84,3 +84,26 @@ main method, where the student only implements the body of the procedure rather 
 5: I would give this submission a 1 on this row because the written response includes code segments of a student developed program that has sequencing and iteration, etc ...
 
 6: I would give this submission a 1 on this row because The response describes two calls to the procedure with different arguments that lead to different results from the procedure. Also it describes the conditions that being tested by each call to the procedure.
+
+# Submission 4 
+
+|---|---|
+|Row 1| 1 | 
+|Row 2| 0 | 
+|Row 3| 0 |
+|Row 4| 1 |
+|Row 5| 1 |
+|Row 6| 0 |
+|Final Score| 3/6 |
+
+1: I would give this submission a 1 on this row because the video shows the running of the program and the collecting if input using a text field and displaying output results on the screen.
+
+2: I would give this submission a 0 on this row because 
+
+3: I would give this submission a 0 on this row because 
+
+4: I would give this submission a 1 on this row because 
+
+5: I would give this submission a 1 on this row because 
+
+6: I would give this submission a 0 on this row because 
