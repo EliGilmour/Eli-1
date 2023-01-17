@@ -106,4 +106,4 @@ main method, where the student only implements the body of the procedure rather 
 
 5: I would give this submission a 1 on this row because the response has a student developed algorithm that includes selection, sequencing and iteration. Also the response explain in depth how the algorithm works.
 
-6: I would give this submission a 0 on this row because the response meet 2 out of 3 for the criteria. The response gives the condidtions being tested rather than two different arguments.
+6: I would give this submission a 0 on this row because the response meet 2 out of 3 for the criteria. The response gives the condidtions being tested rather than two different arguments. So this section gets 0 out of 1 even though it met most of requirments.
