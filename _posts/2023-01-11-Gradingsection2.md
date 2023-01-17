@@ -98,12 +98,12 @@ main method, where the student only implements the body of the procedure rather 
 
 1: I would give this submission a 1 on this row because the video shows the running of the program and the collecting if input using a text field and displaying output results on the screen.
 
-2: I would give this submission a 0 on this row because 
+2: I would give this submission a 0 on this row because even though the response had to code segments, the response didn't get the point because the lis was not being used.
 
-3: I would give this submission a 0 on this row because 
+3: I would give this submission a 0 on this row because the response does include a list, but the list is not used to its purpose and doesn't help benefit the program functionally any better. The response doesn't also explain how the list manages complexity.
 
-4: I would give this submission a 1 on this row because 
+4: I would give this submission a 1 on this row because the response describes the functionality of the procedure. Also the response includes a student developed procedure.
 
-5: I would give this submission a 1 on this row because 
+5: I would give this submission a 1 on this row because the response has a student developed algorithm that includes selection, sequencing and iteration. Also the response explain in depth how the algorithm works.
 
-6: I would give this submission a 0 on this row because 
+6: I would give this submission a 0 on this row because the response meet 2 out of 3 for the criteria. The response gives the condidtions being tested rather than two different arguments.
