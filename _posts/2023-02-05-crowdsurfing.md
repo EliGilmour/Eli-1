@@ -15,3 +15,7 @@ title: Big Idea 5.4 Crowdsourcing Hacks
 # What about Del Norte crowdsourcing? Could your project be better with crowdsourcing?
 
 - Yes my groups project could be alot better with crowdsourcing because we would get many different inputs from lots of people and many different perspectivies. It would help us with creating new features and having great ideas with also helping with problem solving. This would be great it if had crowdsourcing.
+
+# What kind of data could you capture at N@tM to make evening interesting?
+
+- Well i could capture many different projects around all of the classrooms and give feedback to each one of the projects I find intresting to me, also create a blog about what i see at N@TM night.
