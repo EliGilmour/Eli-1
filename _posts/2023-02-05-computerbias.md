@@ -18,3 +18,10 @@ title: Big Idea 5.3 Computing Bias Hacks
 
 - Talk about an algorithm that influences your decisions, think about these companies? (ie FAANG - Facebook, Amazon, Apple,Netflix, Google)
     - One algorithm that influences decisions made by several of these companies is the recommendation algorithm. This algorithm is used by companies such as Netflix, Amazon, and YouTube to suggest products, movies, or videos that they think a user might be interested in based on their previous viewing or purchase history. The goal of a recommendation algorithm is to personalize the user experience and improve engagement by showing them content that is more likely to meet their interests and preferences.
+
+
+# HP Computers are racist
+
+- I don't think that was done on purpose because I believe that they didn't get enought data on african americans and this shows that in the video the camera won't follow the african american but it will follow the caucasian female. 
+- Next time they should get more data using everybody, not just one type of a person.
+- Also this is a very strong claim because there could have been techinical issues. If this has happened more that once, then I could see it.
