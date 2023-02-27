@@ -7,7 +7,7 @@ comments: false
 author: Eli gilmour
 Categories: [fastpages,javascript]
 nb_path: _notebooks/2022-09-26-javascript.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

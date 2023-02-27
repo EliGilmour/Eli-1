@@ -7,7 +7,7 @@ comments: true
 author: Eli gilmour
 Categories: [fastpages, juypter]
 nb_path: _notebooks/2022-09-05-listanddictionary.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

@@ -7,7 +7,7 @@ comments: false
 author: Eli gilmour
 Categories: [fastpages,python]
 nb_path: _notebooks/2022-10-10-apistocks.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

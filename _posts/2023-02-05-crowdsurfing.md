@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 Badges: true
 comments: false
 author: Eli gilmour
