@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Extra Credit Notes",
-            "content": "I Scored 47/50 . . Q26 . . The correct statement is “D: There are trade-offs involved in choosing a compression technique for storing and transmitting data.” This statement is accurate, as different compression techniques may have different levels of compression, processing speed, and compatibility with different file formats | . Q32 . . option C is incorrect. The current score in a game is likely to change often (statement II). .",
+            "content": "I Scored 47/50 . . Q26 . . The correct statement is “D: There are trade-offs involved in choosing a compression technique for storing and transmitting data.” This statement is accurate, as different compression techniques may have different levels of compression, processing speed, and compatibility with different file formats | . Q32 . . option C is incorrect. The current score in a game is likely to change often (statement II). . Q50 . . Algorithm I does not work correctly. In algorithm I, if two people are tied for the earliest birthday, they both sit down when they are eventually paired. Algorithm II works correctly. Because algorithm II allows both people to remain standing when there is a tie, a person with the earliest birthday is not eliminated. Algorithm II continues until all remaining people have the same birthday, which is the earliest birthday. . Reflection . I feel like I understand MCQ test 4 content from what is shown from my test score and after learning about it. | . | .",
             "url": "https://eligilmour.github.io/Eli-1/fastpages/markdown/2023/04/02/MCQ.html",
             "relUrl": "/fastpages/markdown/2023/04/02/MCQ.html",
             "date": " • Apr 2, 2023"
