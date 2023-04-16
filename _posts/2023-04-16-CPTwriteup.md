@@ -5,7 +5,7 @@ Badges: true
 comments: false
 author: Eli gilmour
 categories: [fastpages, markdown]
-title: AP Prep 2.3 
+title: CPT Write Up
 ---
 
 # CPT Write Up
