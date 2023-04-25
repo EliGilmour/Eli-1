@@ -63,7 +63,8 @@ Here is how you set up Duck DNS in a few steps
 5. Update your router's port forwarding settings to forward traffic to the appropriate device on your network.
 6. Test your setup by accessing your custom domain name from a remote location.
 
-# 4. I did not do deployment for my Group last tri, but I think it's important to regularly update Nginx and Docker versions to ensure that security vulnerabilities are addressed, and to verify that any existing configurations are still compatible with newer versions. It's also important to ensure that any dependencies or external services used by the deployment are up-to-date and compatible with the latest versions.
+# 4
+-  I did not do deployment for my Group last tri, but I think it's important to regularly update Nginx and Docker versions to ensure that security vulnerabilities are addressed, and to verify that any existing configurations are still compatible with newer versions. It's also important to ensure that any dependencies or external services used by the deployment are up-to-date and compatible with the latest versions.
 
 # 5. ![photo]({{site.baseurl}}/images/venn.png)
 
