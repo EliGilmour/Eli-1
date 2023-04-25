@@ -10,9 +10,9 @@ title: Dev Ops Hacks
 
 # KASM Hacks
 
-- Virtual desktops allow users to access a complete desktop environment remotely, without the need for physical hardware. KASM is a security feature that isolates each virtual machine from others, providing enhanced security. In an AP CSP environment, virtual desktops can be utilized to provide students with access to a consistent and secure computing environment, allowing them to complete coursework and practice coding without needing to install software or worry about hardware limitations.
+1. Virtual desktops allow users to access a complete desktop environment remotely, without the need for physical hardware. KASM is a security feature that isolates each virtual machine from others, providing enhanced security. In an AP CSP environment, virtual desktops can be utilized to provide students with access to a consistent and secure computing environment, allowing them to complete coursework and practice coding without needing to install software or worry about hardware limitations.
 
-- 
+2.  
 
 # AWS Database Hacks
 
@@ -44,3 +44,21 @@ Q3: Which AWS service enables you to store and query highly connected datasets?
 
 Correct - C. Amazon Neptune
 
+# Duck DNS and AWS Hacks
+
+1. 
+
+2. Duck DNS is an essential part of the internet infrastructure that translates human-readable domain names like www.khalidfarah.com into IP addresses that computers can understand. We use DNS to access websites, send emails, and connect to other online services. DNS allows us to remember domain names easily and eliminates the need to remember IP addresses.
+
+DuckDNS is a free dynamic DNS service that allows users to assign a custom domain name to their public IP address, making it easier to access their home network devices remotely. DuckDNS works by running a client script on a device connected to the network that periodically sends the current IP address to DuckDNS servers, which then update the DNS record with the new IP address. DuckDNS is unique in that it does not require users to register or provide any personal information to use the service, and it supports multiple subdomains per account.
+
+DuckDNS is useful for our projects because it enables us to access our home network devices remotely without having to remember the IP address or perform complex configurations. We can use DuckDNS to access our Raspberry Pi servers, cameras, and other IoT devices securely and conveniently from anywhere in the world.
+
+Here is how you set up Duck DNS in a few steps
+
+1. Go to the DuckDNS website and sign up for an account.
+2. Choose a custom subdomain name for your account.
+3. Install the DuckDNS client script on a device connected to your network.
+4. Configure the client script to run periodically and send the current IP address to the DuckDNS servers.
+5. Update your router's port forwarding settings to forward traffic to the appropriate device on your network.
+6. Test your setup by accessing your custom domain name from a remote location.
