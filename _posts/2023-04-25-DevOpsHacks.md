@@ -30,4 +30,17 @@ Q3: What is the purpose of the code example provided in the lesson?
 
 Correct - C. To provide an example of how to connect to a database instance in RDS using Python.
 
+# Quiz 2
+
+Q1: Which of the following is not an AWS database option?
+
+Correct - C. SQLite
+
+Q2: Which of the following is a file-based, lightweight RDBMS?
+
+Correct - D. SQLite
+
+Q3: Which AWS service enables you to store and query highly connected datasets?
+
+Correct - C. Amazon Neptune
 
