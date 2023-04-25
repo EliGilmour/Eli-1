@@ -67,5 +67,5 @@ Here is how you set up Duck DNS in a few steps
 
 5. ![photo]({{site.baseurl}}/images/venn.png)
 
-6. 
+6. ![photo]({{site.baseurl}}/images/quiz.png)
 
