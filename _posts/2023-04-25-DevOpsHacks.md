@@ -12,7 +12,9 @@ title: Dev Ops Hacks
 
 1. Virtual desktops allow users to access a complete desktop environment remotely, without the need for physical hardware. KASM is a security feature that isolates each virtual machine from others, providing enhanced security. In an AP CSP environment, virtual desktops can be utilized to provide students with access to a consistent and secure computing environment, allowing them to complete coursework and practice coding without needing to install software or worry about hardware limitations.
 
-2.  
+2. This was the farthest I got too, there were some problems trying to create an account.
+
+![photo]({{site.baseurl}}/images/tried.png)
 
 # AWS Database Hacks
 
@@ -74,7 +76,9 @@ Here is how you set up Duck DNS in a few steps
 
 # CERTBOT Hacks
 
-1. 
+1. It says that I didn't install CERTBOT, but I went through each step, so idk, but I attempted it.
+
+![photo]({{site.baseurl}}/images/attempt.png)
 
 2. OpenSSL and LibreSSL are both popular open-source cryptographic libraries used for secure communication on the Internet. While both libraries share many similarities in their security features, there are some differences between the two. OpenSSL is a widely used library that supports a variety of cryptographic algorithms, including SSL/TLS protocols, PKI, and cryptographic hashing. It also provides a comprehensive set of features for secure communication, such as support for hardware acceleration, session resumption, and perfect forward secrecy. OpenSSL has been the subject of various security vulnerabilities over the years, including Heartbleed, DROWN, and more recently, the "ChaCha20-Poly1305 zero-length padding" vulnerability. both OpenSSL and LibreSSL provide a wide range of security features for secure communication on the Internet. However, LibreSSL has been developed with a focus on security and simplicity, and it has improved on some of the vulnerabilities present in OpenSSL. While both libraries may still be vulnerable to future security issues, it's important to keep them updated to their latest versions to ensure maximum security.
 
