@@ -47,6 +47,7 @@ Correct - C. Amazon Neptune
 # Duck DNS and AWS Hacks
 
 1.  ![photo]({{site.baseurl}}/images/venn2.png)
+    
     ![photo]({{site.baseurl}}/images/AWS.jpg)
 
 2. Duck DNS is an essential part of the internet infrastructure that translates human-readable domain names like www.khalidfarah.com into IP addresses that computers can understand. We use DNS to access websites, send emails, and connect to other online services. DNS allows us to remember domain names easily and eliminates the need to remember IP addresses.
