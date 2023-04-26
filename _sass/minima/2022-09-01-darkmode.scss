@@ -1,92 +1,86 @@
-$high-emph: rgba(white, 0.87);
-$med-emph: rgba(white, 0.69); //Noicee
-$low-emph: rgba(white, 0.38);
-$dark-grey : #d25e5eef; 
-// $dark-grey : #1F1B24;
-$overlay: mix($dark-grey, white, 95%);
-$overlay-light: mix($dark-grey, white, 86%);
-
 html, body, input, textarea, select, button {   
-  color: $high-emph !important;
-  background-color: $dark-grey !important;
+    color: #ffffff !important;
+    background: linear-gradient(217deg, rgba(12, 131, 123, 0.8), rgba(255,0,0,0) 70.71%),            
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
 }
-
-a {
-    color: rgb(78, 0, 57) !important;
-}
-
-a:hover {
-    color:$high-emph !important;
-}
-
-.site-title, .site-title:visited, .site-nav, .page-link {
-    color: $high-emph !important;
-}
-
-.site-nav {
-    background-color: $dark-grey;
-    border-color: $overlay-light;
-}
-
-* {
-    scrollbar-color: $dark-grey $overlay-light;
-}
-
-pre, code {
-    // BVas a lighter colour to better highlight short code words
-    border-color: $overlay-light;
-    background-color: $overlay;
-}
-
-.page-description {
-    color: $med-emph;
-}
-
-.post-meta {
-    color: $low-emph;
-}
-
-.post-content p, .post-content li {
-    color: $med-emph;
-}
-
-.btn {
-    background-color: $overlay !important;
-    color: $high-emph !important;
-    border-color: $overlay-light !important;
-}
-
-.btn:hover {
-    background-color: $dark-grey !important;
-}
-
-table th{
-    background-color: $overlay;
-    border-color: $overlay-light;
-    color: $high-emph;
-}
-
-table td{
-    background-color: $dark-grey;
-    border-color: $overlay-light;
-    color: $med-emph;
-}
-
-.flash {
-    color: $dark-grey !important;
-    filter: brightness(80%);
-}
-
-canvas {
-    filter: invert(100%);
-}
-
-.post-list > li > div {
-    box-shadow: none !important;
-    background-color: $overlay;
-    border: none !important;
-}
-
-li .post-meta-description {
-    color: $med-emph !important;
-}
+  a, h3, h1,p {
+      color: #ffffff !important;
+  }
+  
+  a:hover {
+      color: #cfcfcf !important;
+  }
+  
+  .site-title, .site-title:visited, .site-nav, .page-link {
+      color: #ffffff !important;
+  }
+  
+  .site-nav {
+     /* background: linear-gradient(to bottom right, #0052cc, #ff4d4d);*/
+      border-color: #fffbe5;
+  }
+  
+  * {
+      scrollbar-color: #fffae5 #fffbe5;
+  }
+  
+  pre, code {
+      border-color: #fffbe5;
+      background: linear-gradient(to bottom right, #707070, #707070);
+  }
+  
+  .page-description {
+      color: #c7c7c7;
+  }
+  
+  .post-meta {
+      color: #ffffff;
+  }
+  
+  .post-content p, .post-content li {
+      color: #ffffff;
+  }
+  
+  .btn {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);      color: #ff4d4d !important;
+      border-color: #fffbe5 !important;
+  }
+  
+  .btn:hover {
+      background-color: #fffae5 !important;
+  }
+  
+  table th{
+      background: linear-gradient(to bottom right, #0052cc00, #ff4d4d00);
+      border-color: #fffbe5;
+      color: #ffffff;
+  }
+  
+  table td{
+      background: linear-gradient(to bottom right, #ffffff00, #ff4d4d00);
+      border-color: #fffbe5;
+      color: #ffffff;
+  }
+  
+  .flash {
+      color: #fffae5 !important;
+      filter: brightness(80%);
+  }
+  
+  canvas {
+      filter: invert(100%);
+  }
+  
+  .post-list > li > div {
+      box-shadow: none !important;
+      background: linear-gradient(to bottom right, #3a3a3a, #020202);
+      border: 1cm  !important;
+  }
+  
+  li .post-meta-description {
+      color: #ffffff !important;
+  }
+    
