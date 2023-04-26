@@ -1,8 +1,7 @@
 ---
-layout: categories
-permalink: /categories/
+layout: Page
+permalink: /Theme Changer/
 title: Theme Changer
-search_exclude: true
 ---
 
 <!-- Define CSS variables for the theme colors -->
