@@ -764,7 +764,9 @@
   
 
   
-      ,"page2": {
+
+  
+      ,"page3": {
           "title": "Vocab",
           "content": "Vocab list . Input: Data going into to the code Output: Data coming out of the code Sequence: two or more lines . Fastpages . An open source blogging tool with support for Jupyter notebook, markdown, and docs . File Types . .md: used to create web pages .ipynb: jupyter notebook uses python and .md in conjunction .html: similar to .md files, however, .html is more difficult to use but allows for more effects than .md .",
           "url": "https://eligilmour.github.io/Eli-1/vocab/",
@@ -775,7 +777,7 @@
   
 
   
-      ,"page3": {
+      ,"page4": {
           "title": "Frontend",
           "content": "| Overview | Javascript tutorial | API Stocks | td&gt; . &lt;/table",
           "url": "https://eligilmour.github.io/Eli-1/frontend/overview",
@@ -788,7 +790,7 @@
   
 
   
-      ,"page5": {
+      ,"page6": {
           "title": "Weekly work",
           "content": "Week Projects . 0 | My first jupyter notebook,—&gt; My First Markdown. | . 1 | Football quiz,—&gt; key tools check. | . 2 | changing a theme,—&gt; lists, Dictionaries, Iteration. | . 3 | Making quiz using app lab. | . 4 | collaboration Notes,—&gt;Psychology of Happiness. | . 5 | Javascript,—&gt; Final project plan | . 6 | college board quiz,—&gt; | . 7 | Stock Final Project plan,—&gt;Identifying and Correcting Errors Quiz | . 7 | Burger,Fries,Drink code Block Fix,—&gt; | .",
           "url": "https://eligilmour.github.io/Eli-1/WeeklyWork/",
@@ -829,7 +831,7 @@
   
 
   
-      ,"page18": {
+      ,"page19": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://eligilmour.github.io/Eli-1/robots.txt",
