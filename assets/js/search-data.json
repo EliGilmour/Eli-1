@@ -777,9 +777,9 @@
   
       ,"page3": {
           "title": "Theme Changer",
-          "content": "Toggle Theme .",
-          "url": "https://eligilmour.github.io/Eli-1/Theme%20Changer/",
-          "relUrl": "/Theme Changer/",
+          "content": "Theme Changer . . Toggle Theme &lt;/html&gt; .",
+          "url": "https://eligilmour.github.io/Eli-1/_pages/ThemeChanger.html",
+          "relUrl": "/_pages/ThemeChanger.html",
           "date": ""
       }
       
