@@ -18,7 +18,9 @@ title: Logic Hacks
 
 - Boolean operations are abstract mathematical operations defined in Boolean algebra, while logic gates are physical devices or circuits that implement these operations by controlling the flow of electricity through them. Boolean operations are the abstract concepts used to describe logical relationships between variables, while logic gates are the physical components that perform these operations in digital circuits.
 
-# 3.
+# 3. Quiz
+
+- I didn't read two of the questions fully and I selected the wrong ones.
 
 ![photo]({{site.baseurl}}/images/grades.png)
 
