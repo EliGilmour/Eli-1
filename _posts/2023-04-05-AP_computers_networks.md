@@ -24,15 +24,15 @@ List specification of your Computer, or Computers if working as Pair/Trio
 - OS: 64-bit operating system, x64-based processor
 
 Define or describe usage of Computer using Computer Programs. Pictures are preferred over a lot of text.  Use your experience.
-- Input devices
-- Output devices
-- Program File
-- Program Code
-- Processes
-- Ports
-- Data File
-- Inspect Running Code
-- Inspect Variables
+- Input devices - hardware components or peripherals that are used to input data or commands into a computer system. Examples of input devices include keyboards, mice, scanners, digital cameras, and microphones.
+- Output devices - hardware components or peripherals that are used to display or output information from a computer system. Examples of output devices include monitors, printers, speakers, and projectors.
+- Program File -  contains executable code written in a programming language. Program files typically have a file extension that corresponds to the programming language used to write them.
+- Program Code - set of instructions written in a programming language that tells a computer what to do. Program code can be compiled or interpreted, and it can be written in a variety of programming languages, such as C++, Java, Python, and more.
+- Processes - programs or applications that are currently running on a computer system. A process can be thought of as an instance of a program that is currently executing in memory.
+- Ports - connection points on a computer or other electronic device that allow for the transfer of data between the device and other devices. Ports can be physical, such as USB or HDMI ports
+- Data File -  contains data or information that can be accessed by a computer program. Data files can be created in a variety of formats, such as text, binary, or image formats.
+- Inspect Running Code - running code refers to the process of examining the code that is currently executing on a computer system.refers to the process of examining the values of variables in a program or application.
+- Inspect Variables - refers to the process of examining the values of variables in a program or application. This can be done using debugging tools or by examining the code itself. Variables are used to store data or information that is used by a program during its execution.
 
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpeg)
@@ -52,16 +52,30 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Bandwidth is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
-    - Path 
-    - Route
-    - Computer System
-    - Computer Device
-    - Bandwidth
-    - Computer Network
+    - Path - A
+    - Route - C
+    - Computer System - B
+    - Computer Device - C
+    - Bandwidth - D
+    - Computer Network - F
 
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
+
+- T
+
+- F
+
+- F
+
+- T
+
+- F
+
+- F
+
+- T
 
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
@@ -85,6 +99,9 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 
 
 - Often we draw pictures of machines communicating over the Internet with arrows.  However, the real communication goes through protocol layers and the machine and then is trasported of the network.   For College Board and future Computer Knowledge you should become familiar with the following ...
+
+![photo]({{site.baseurl}}/images/xxx.jpg)
+
 
 ```
      User Machine  <---> Frontend Server <---> Backend Server
@@ -115,11 +132,14 @@ The "network" layer is responsible for ***routing data packets between networks*
 
 - Complete the network activity, summarize your understanding of fault tolerance.
 
+- Fault tolerance is the ability of a system or component to continue functioning in the event of a fault or failure. This means that if a component or part of a system fails, the system as a whole can continue to operate without interruption
 
 ### Parallel and Distributed Computing
 > Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
 
 - What is naturally Distributed in Frontend/Backend archeticture?  
+
+- Distributed architectures like frontend/backend are often used in modern web applications to provide scalability, flexibility, and modularity.
 
 - Analyze this command in Docker: ```ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"```.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an [article](https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7)
 
