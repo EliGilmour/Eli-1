@@ -39,3 +39,11 @@ Write the result of the subtraction as a binary number.
 # Api Hacks
 
 # 1. 
+
+![photo]({{site.baseurl}}/images/panda.png)
+
+- Outcome
+
+![photo]({{site.baseurl}}/images/outcome.png)
+
+
