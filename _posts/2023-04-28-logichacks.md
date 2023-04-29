@@ -37,6 +37,7 @@ Write the result of the subtraction as a binary number.
 
 # 2. 
 
+- My code isn't uploading to my fastpages, it will be up by end of weekend.
 
 # Api Hacks
 
