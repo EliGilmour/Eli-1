@@ -26,6 +26,16 @@ title: Logic Hacks
 
 ![photo]({{site.baseurl}}/images/quizscore.png)
 
+# Binary Math
+
+# 1. 
+
+- Write the two numbers one above the other, with the second number (the subtrahend) below the first number (the minuend). Starting from the rightmost digit of the subtrahend, subtract each digit from the corresponding digit of the minuend. If the digit in the subtrahend is larger than the digit in the minuend, borrow 1 from the next digit to the left in the minuend. Write the result of each subtraction below the corresponding digits of the subtrahend. If any borrow occurs in step 2, the borrowed digit in the minuend is reduced by 1. This process is repeated until no borrow occurs.
+Write the result of the subtraction as a binary number.
+
+# 2. 
+
+
 # Api Hacks
 
 # 1. 
