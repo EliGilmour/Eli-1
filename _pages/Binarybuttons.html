@@ -1,0 +1,57 @@
+
+---
+layout: page
+title: Binary Buttons 
+permalink: /Binary Buttons/
+---
+<html>
+<form>
+      <label for="binary1">Binary Number 1:</label>
+      <input type="text" id="binary1" name="binary1"><br><br>
+      <label for="binary2">Binary Number 2:</label>
+      <input type="text" id="binary2" name="binary2"><br><br>
+      <input type="button" value="Multiply Binary Numbers" onclick="binaryMultiplication()">
+      <input type="button" value="Multiply Binary Numbers" onclick="binaryDivision()">
+      <p id="binary_result"></p>
+      <p id="decimal_result"></p>
+</form>
+
+<script>
+  
+  function binaryMultiplication() {
+  // Get the values of the two input fields
+  var binary1 = document.getElementById("binary1").value;
+  var binary2 = document.getElementById("binary2").value;
+  
+  // Convert the binary strings to decimal integers and multiply them
+  var decimalProduct = parseInt(binary1, 2) * parseInt(binary2, 2);
+  
+  // Convert the decimal product back to a binary string and display it
+  var binaryProduct = decimalProduct.toString(2);
+  
+  document.getElementById("binary_result").innerHTML = "Product of binary numbers: " + binaryProduct;
+  document.getElementById("decimal_result").innerHTML = "Product in base 10: " + decimalProduct;
+}
+
+  function binaryDivision() {
+  // Get the values of the two input fields
+  var binary1 = document.getElementById("binary1").value;
+  var binary2 = document.getElementById("binary2").value;
+
+  // Convert the binary strings to decimal integers and divide them
+  var decimalQuotient = parseInt(binary1, 2) / parseInt(binary2, 2);
+
+  // Check if the quotient is an integer
+  if (decimalQuotient % 1 === 0) {
+    // Convert the decimal quotient back to a binary string and display it
+    var binaryQuotient = decimalQuotient.toString(2);
+    document.getElementById("binary_result").innerHTML = "Quotient of binary numbers: " + binaryQuotient;
+    document.getElementById("decimal_result").innerHTML = "Quotient in base 10: " + decimalQuotient;
+  } else {
+    document.getElementById("binary_result").innerHTML = "The binary division is not exact.";
+    document.getElementById("decimal_result").innerHTML = "The quotient is a decimal number.";
+  }
+}
+
+    </script>
+</html>

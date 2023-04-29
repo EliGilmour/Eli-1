@@ -22,6 +22,10 @@ title: Logic Hacks
 
 ![photo]({{site.baseurl}}/images/grades.png)
 
+# Binary Logic
+
+![photo]({{site.baseurl}}/images/quizscore.png)
+
 # Api Hacks
 
 # 1. 
