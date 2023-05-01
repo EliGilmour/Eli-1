@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -275,6 +275,9 @@ window.onload = wrap_img;
   </li>
   <li>
     <p>Analyze this command in Docker: <code class="language-plaintext highlighter-rouge">ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"</code>.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an <a href="https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7">article</a></p>
+  </li>
+  <li>
+    <p>This environment variable is used to pass additional command-line arguments to the Gunicorn web server when it starts up. Specifically, the “–workers=1” argument specifies that Gunicorn should start only one worker process, while the “–bind=0.0.0.0:8086” argument specifies that the web server should listen on all available network interfaces on port 8086.</p>
   </li>
 </ul>
 
