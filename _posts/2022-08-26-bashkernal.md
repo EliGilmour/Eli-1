@@ -9,7 +9,7 @@ comments: false
 author: Eli gilmour
 categories: [fastpages, juypter]
 nb_path: _notebooks/2022-08-26-bashkernal.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

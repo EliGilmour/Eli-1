@@ -7,7 +7,7 @@ comments: false
 author: Eli gilmour
 Categories: [fastpages,javascript]
 nb_path: _notebooks/2022-10-18-writingaboutcode.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

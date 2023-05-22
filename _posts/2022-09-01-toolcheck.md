@@ -8,7 +8,7 @@ comments: false
 author: Eli gilmour
 categories: [fastpages, juypter]
 nb_path: _notebooks/2022-09-01-toolcheck.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

@@ -7,7 +7,7 @@ comments: false
 author: Eli gilmour
 Categories: [fastpages, juypter]
 nb_path: _notebooks/2022-08-26-notebookquiz.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--

@@ -6,7 +6,7 @@ categories: [Javascript,markdown]
 type: pbl
 week: 7
 nb_path: _notebooks/2022-11-29-theoshomework.ipynb
-layout: notebook
+layout: base
 ---
 
 <!--
