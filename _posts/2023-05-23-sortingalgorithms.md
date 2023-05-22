@@ -92,3 +92,56 @@ print(f"Bubble Sort Time: {bubble_sort_time} seconds")
 print(f"Merge Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}")
 print(f"Merge Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}")
 print(f"Merge Sort Time: {merge_sort_time} seconds")
+
+# Bubble Sort Poopcorn Hack
+
+words = new_words()
+print(words)
+def bubbleSort(list):
+    n = len(list) - 1  # list are indexed 0 to n-1, len is n
+    
+    # Traverse through list with i index
+    for i in range(n):
+        swapped = False  # optimize code, so it exits if now swaps on inner loop
+
+        # Inner traversal using j index
+        for j in range(n-i):  # n-i as positions on right are in order in bubble
+ 
+            # Swap if the element KeyN is greater KeyN1
+            keyN = list[j]
+            keyN1 = list[j+1]
+            if keyN > keyN1:
+                swapped = True
+                list[j], list[j + 1] = list[j + 1], list[j]  # single line swap
+         
+        if not swapped:  # if no swaps on inner pass, list is sorted
+            return  # exit function
+        
+bubbleSort(words)
+print(words)
+
+# Selection Sort Poopcorn Hack
+
+words = new_words()
+print(words)
+def selectionSort(list):
+    n = len(list)  # length is n
+    
+    # List is traversed from index 0 to n-1, n elements
+    for i in range(n):
+        smallI = i  # small index is captured
+        smallV = list[i]
+
+        # Inner traversal looks at elements after i
+        for j in range(i+1, n):
+            # Save reference if less
+            keyV = list[j]
+            if keyV < smallV:
+                smallI = j  # small index is replaced
+                smallV = keyV
+        
+        # swap smallest to current i positon, sorting left to right
+        list[i], list[smallI] = list[smallI], list[i]  # single line swap 
+        
+selectionSort(words)
+print(words)
