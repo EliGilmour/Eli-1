@@ -47,10 +47,10 @@ def mergeSort(arr, key):
 
 # Create your own list
 
-my_list = [
-    {"name": "Alice", "age": 25, "city": "London"},
-    {"name": "Bob", "age": 32, "city": "New York"},
-    {"name": "Charlie", "age": 19, "city": "Paris"},
+Eli_list = [
+    {"name": "Bob", "age": 25, "city": "London"},
+    {"name": "Khalid", "age": 32, "city": "New York"},
+    {"name": "Eli", "age": 19, "city": "Paris"},
     {"name": "David", "age": 41, "city": "Tokyo"},
     {"name": "Eve", "age": 28, "city": "Berlin"}
 ]
@@ -58,16 +58,16 @@ my_list = [
 # Display the original list
 
 print("Original List:")
-print(my_list)
+print(Eli_list)
 
 # Testing bubble sort on your list
 
 print("\nBubble Sort:")
 start_time = time.time()
-for key in my_list[0]:
-    bubbleSort(my_list, key)
+for key in Eli_list[0]:
+    bubbleSort(Eli_list, key)
     print(f"\nSorted by '{key}':")
-    print(my_list)
+    print(Eli_list)
 end_time = time.time()
 bubble_sort_time = end_time - start_time
 
@@ -76,21 +76,21 @@ bubble_sort_time = end_time - start_time
 print("\nMerge Sort:")
 start_time = time.time()
 for key in my_list[0]:
-    mergeSort(my_list, key)
+    mergeSort(Eli_list, key)
     print(f"\nSorted by '{key}':")
-    print(my_list)
+    print(Eli_list)
 end_time = time.time()
 merge_sort_time = end_time - start_time
 
 # Analysis of sorting algorithms
 
 print("\nSorting Analysis:")
-print(f"Number of elements: {len(my_list)}")
-print(f"Bubble Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}")
-print(f"Bubble Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}")
+print(f"Number of elements: {len(Eli_list)}")
+print(f"Bubble Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}")
+print(f"Bubble Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}")
 print(f"Bubble Sort Time: {bubble_sort_time} seconds")
-print(f"Merge Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}")
-print(f"Merge Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}")
+print(f"Merge Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}")
+print(f"Merge Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}")
 print(f"Merge Sort Time: {merge_sort_time} seconds")
 
 # Bubble Sort Poopcorn Hack
