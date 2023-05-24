@@ -14,6 +14,19 @@ title: Sorting Algorithms Hacks
 
 - Python doesn't have explicit pass-by-reference semantics, the behavior of passing a list to a function resembles pass-by-reference, as modifications to the list within the function persist after the function call.
 
+# Practice Problems
+
+1. Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the entire list is sorted.
+    Selection sort is another simple sorting algorithm that works by dividing the list into a sorted and an unsorted region. It repeatedly finds the smallest (or largest) element from the unsorted region and swaps it with the leftmost unsorted element, expanding the sorted region by one element.
+
+2. Merge sort is a divide-and-conquer algorithm that recursively divides the list into smaller sublists, sorts them, and then merges them back together to obtain a sorted list. It has a time complexity of O(n log n).
+    insortion sort, It iterates through the list and repeatedly inserts each element into its correct position within the already sorted part of the list. It has a time complexity of O(n^2).
+
+
+
+
+
+
 # Merge sorts a list of dictionaries based on provided key
 def mergeSort(arr, key):
     if len(arr) > 1:
