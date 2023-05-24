@@ -82,7 +82,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      1 min read
     
 </span></p>
 
@@ -104,14 +104,8 @@ window.onload = wrap_img;
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h1"><a href="#1">1</a></li>
 <li class="toc-entry toc-h1"><a href="#practice-problems">Practice Problems</a></li>
-<li class="toc-entry toc-h1"><a href="#merge-sorts-a-list-of-dictionaries-based-on-provided-key">Merge sorts a list of dictionaries based on provided key</a></li>
-<li class="toc-entry toc-h1"><a href="#create-your-own-list">Create your own list</a></li>
-<li class="toc-entry toc-h1"><a href="#display-the-original-list">Display the original list</a></li>
-<li class="toc-entry toc-h1"><a href="#testing-bubble-sort-on-your-list">Testing bubble sort on your list</a></li>
-<li class="toc-entry toc-h1"><a href="#testing-merge-sort-on-your-list">Testing merge sort on your list</a></li>
-<li class="toc-entry toc-h1"><a href="#analysis-of-sorting-algorithms">Analysis of sorting algorithms</a></li>
-<li class="toc-entry toc-h1"><a href="#bubble-sort-poopcorn-hack">Bubble Sort Poopcorn Hack</a></li>
-<li class="toc-entry toc-h1"><a href="#selection-sort-poopcorn-hack">Selection Sort Poopcorn Hack</a></li>
+<li class="toc-entry toc-h1"><a href="#what-happened-to-this-sort">What happened to this sort</a></li>
+<li class="toc-entry toc-h1"><a href="#stargies-to-sort-this-code--warmup-">Stargies to sort this code ( Warmup )</a></li>
 </ul><h1 id="1">
 <a class="anchor" href="#1" aria-hidden="true"><span class="octicon octicon-link"></span></a>1</h1>
 
@@ -138,148 +132,21 @@ window.onload = wrap_img;
   </li>
 </ol>
 
-<h1 id="merge-sorts-a-list-of-dictionaries-based-on-provided-key">
-<a class="anchor" href="#merge-sorts-a-list-of-dictionaries-based-on-provided-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>Merge sorts a list of dictionaries based on provided key</h1>
-<p>def mergeSort(arr, key):
-    if len(arr) &gt; 1:
-        mid = len(arr) // 2
-        left_half = arr[:mid]
-        right_half = arr[mid:]</p>
+<h1 id="what-happened-to-this-sort">
+<a class="anchor" href="#what-happened-to-this-sort" aria-hidden="true"><span class="octicon octicon-link"></span></a>What happened to this sort</h1>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    mergeSort(left_half, key)
-    mergeSort(right_half, key)
+<ul>
+  <li>Its comparing the twoo block and seeing which one is higher and lower and switching to be in the right order. Then it continues through the whole list to make sure the whole list is sorted.</li>
+</ul>
 
-    i = j = k = 0
+<h1 id="stargies-to-sort-this-code--warmup-">
+<a class="anchor" href="#stargies-to-sort-this-code--warmup-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stargies to sort this code ( Warmup )</h1>
 
-    while i &lt; len(left_half) and j &lt; len(right_half):
-        if left_half[i].get(key) &lt; right_half[j].get(key):
-            arr[k] = left_half[i]
-            i += 1
-        else:
-            arr[k] = right_half[j]
-            j += 1
-        k += 1
+<ul>
+  <li>Bubble Sort: Iterate through the list multiple times, comparing adjacent elements and swapping them if they are in the wrong order. This process is repeated until the list is sorted.</li>
+</ul>
 
-    while i &lt; len(left_half):
-        arr[k] = left_half[i]
-        i += 1
-        k += 1
-
-    while j &lt; len(right_half):
-        arr[k] = right_half[j]
-        j += 1
-        k += 1
-</code></pre></div></div>
-
-<h1 id="create-your-own-list">
-<a class="anchor" href="#create-your-own-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create your own list</h1>
-
-<p>Eli_list = [
-    {“name”: “Bob”, “age”: 25, “city”: “London”},
-    {“name”: “Khalid”, “age”: 32, “city”: “New York”},
-    {“name”: “Eli”, “age”: 19, “city”: “Paris”},
-    {“name”: “David”, “age”: 41, “city”: “Tokyo”},
-    {“name”: “Eve”, “age”: 28, “city”: “Berlin”}
-]</p>
-
-<h1 id="display-the-original-list">
-<a class="anchor" href="#display-the-original-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Display the original list</h1>
-
-<p>print(“Original List:”)
-print(Eli_list)</p>
-
-<h1 id="testing-bubble-sort-on-your-list">
-<a class="anchor" href="#testing-bubble-sort-on-your-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing bubble sort on your list</h1>
-
-<p>print(“\nBubble Sort:”)
-start_time = time.time()
-for key in Eli_list[0]:
-    bubbleSort(Eli_list, key)
-    print(f”\nSorted by ‘{key}’:”)
-    print(Eli_list)
-end_time = time.time()
-bubble_sort_time = end_time - start_time</p>
-
-<h1 id="testing-merge-sort-on-your-list">
-<a class="anchor" href="#testing-merge-sort-on-your-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing merge sort on your list</h1>
-
-<p>print(“\nMerge Sort:”)
-start_time = time.time()
-for key in my_list[0]:
-    mergeSort(Eli_list, key)
-    print(f”\nSorted by ‘{key}’:”)
-    print(Eli_list)
-end_time = time.time()
-merge_sort_time = end_time - start_time</p>
-
-<h1 id="analysis-of-sorting-algorithms">
-<a class="anchor" href="#analysis-of-sorting-algorithms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis of sorting algorithms</h1>
-
-<p>print(“\nSorting Analysis:”)
-print(f”Number of elements: {len(Eli_list)}”)
-print(f”Bubble Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
-print(f”Bubble Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
-print(f”Bubble Sort Time: {bubble_sort_time} seconds”)
-print(f”Merge Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
-print(f”Merge Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
-print(f”Merge Sort Time: {merge_sort_time} seconds”)</p>
-
-<h1 id="bubble-sort-poopcorn-hack">
-<a class="anchor" href="#bubble-sort-poopcorn-hack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bubble Sort Poopcorn Hack</h1>
-
-<p>words = new_words()
-print(words)
-def bubbleSort(list):
-    n = len(list) - 1  # list are indexed 0 to n-1, len is n</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Traverse through list with i index
-for i in range(n):
-    swapped = False  # optimize code, so it exits if now swaps on inner loop
-
-    # Inner traversal using j index
-    for j in range(n-i):  # n-i as positions on right are in order in bubble
- 
-        # Swap if the element KeyN is greater KeyN1
-        keyN = list[j]
-        keyN1 = list[j+1]
-        if keyN &gt; keyN1:
-            swapped = True
-            list[j], list[j + 1] = list[j + 1], list[j]  # single line swap
-     
-    if not swapped:  # if no swaps on inner pass, list is sorted
-        return  # exit function
-</code></pre></div></div>
-
-<p>bubbleSort(words)
-print(words)</p>
-
-<h1 id="selection-sort-poopcorn-hack">
-<a class="anchor" href="#selection-sort-poopcorn-hack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selection Sort Poopcorn Hack</h1>
-
-<p>words = new_words()
-print(words)
-def selectionSort(list):
-    n = len(list)  # length is n</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># List is traversed from index 0 to n-1, n elements
-for i in range(n):
-    smallI = i  # small index is captured
-    smallV = list[i]
-
-    # Inner traversal looks at elements after i
-    for j in range(i+1, n):
-        # Save reference if less
-        keyV = list[j]
-        if keyV &lt; smallV:
-            smallI = j  # small index is replaced
-            smallV = keyV
-    
-    # swap smallest to current i positon, sorting left to right
-    list[i], list[smallI] = list[smallI], list[i]  # single line swap 
-</code></pre></div></div>
-
-<p>selectionSort(words)
-print(words)</p>
+<p>Selection Sort: Find the minimum element in the unsorted part of the list and swap it with the first unsorted element. Repeat this process for the remaining unsorted part until the entire list is sorted.</p>
 
   </div><a class="u-url" href="/Eli-1/fastpages/markdown/2023/05/23/sortingalgorithms.html" hidden></a>
 </article>
