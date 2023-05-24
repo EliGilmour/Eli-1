@@ -159,10 +159,10 @@ window.onload = wrap_img;
 <h1 id="create-your-own-list">
 <a class="anchor" href="#create-your-own-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create your own list</h1>
 
-<p>my_list = [
-    {“name”: “Alice”, “age”: 25, “city”: “London”},
-    {“name”: “Bob”, “age”: 32, “city”: “New York”},
-    {“name”: “Charlie”, “age”: 19, “city”: “Paris”},
+<p>Eli_list = [
+    {“name”: “Bob”, “age”: 25, “city”: “London”},
+    {“name”: “Khalid”, “age”: 32, “city”: “New York”},
+    {“name”: “Eli”, “age”: 19, “city”: “Paris”},
     {“name”: “David”, “age”: 41, “city”: “Tokyo”},
     {“name”: “Eve”, “age”: 28, “city”: “Berlin”}
 ]</p>
@@ -171,17 +171,17 @@ window.onload = wrap_img;
 <a class="anchor" href="#display-the-original-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Display the original list</h1>
 
 <p>print(“Original List:”)
-print(my_list)</p>
+print(Eli_list)</p>
 
 <h1 id="testing-bubble-sort-on-your-list">
 <a class="anchor" href="#testing-bubble-sort-on-your-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing bubble sort on your list</h1>
 
 <p>print(“\nBubble Sort:”)
 start_time = time.time()
-for key in my_list[0]:
-    bubbleSort(my_list, key)
+for key in Eli_list[0]:
+    bubbleSort(Eli_list, key)
     print(f”\nSorted by ‘{key}’:”)
-    print(my_list)
+    print(Eli_list)
 end_time = time.time()
 bubble_sort_time = end_time - start_time</p>
 
@@ -191,9 +191,9 @@ bubble_sort_time = end_time - start_time</p>
 <p>print(“\nMerge Sort:”)
 start_time = time.time()
 for key in my_list[0]:
-    mergeSort(my_list, key)
+    mergeSort(Eli_list, key)
     print(f”\nSorted by ‘{key}’:”)
-    print(my_list)
+    print(Eli_list)
 end_time = time.time()
 merge_sort_time = end_time - start_time</p>
 
@@ -201,12 +201,12 @@ merge_sort_time = end_time - start_time</p>
 <a class="anchor" href="#analysis-of-sorting-algorithms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis of sorting algorithms</h1>
 
 <p>print(“\nSorting Analysis:”)
-print(f”Number of elements: {len(my_list)}”)
-print(f”Bubble Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}”)
-print(f”Bubble Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}”)
+print(f”Number of elements: {len(Eli_list)}”)
+print(f”Bubble Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
+print(f”Bubble Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
 print(f”Bubble Sort Time: {bubble_sort_time} seconds”)
-print(f”Merge Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}”)
-print(f”Merge Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}”)
+print(f”Merge Sort Comparisons: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
+print(f”Merge Sort Swaps: {len(Eli_list) * (len(Eli_list) - 1) // 2}”)
 print(f”Merge Sort Time: {merge_sort_time} seconds”)</p>
 
 <h1 id="bubble-sort-poopcorn-hack">
