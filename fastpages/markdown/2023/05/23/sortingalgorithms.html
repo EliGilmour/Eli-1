@@ -82,7 +82,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -109,6 +109,8 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#testing-bubble-sort-on-your-list">Testing bubble sort on your list</a></li>
 <li class="toc-entry toc-h1"><a href="#testing-merge-sort-on-your-list">Testing merge sort on your list</a></li>
 <li class="toc-entry toc-h1"><a href="#analysis-of-sorting-algorithms">Analysis of sorting algorithms</a></li>
+<li class="toc-entry toc-h1"><a href="#bubble-sort-poopcorn-hack">Bubble Sort Poopcorn Hack</a></li>
+<li class="toc-entry toc-h1"><a href="#selection-sort-poopcorn-hack">Selection Sort Poopcorn Hack</a></li>
 </ul><h1 id="1">
 <a class="anchor" href="#1" aria-hidden="true"><span class="octicon octicon-link"></span></a>1</h1>
 
@@ -206,6 +208,63 @@ print(f”Bubble Sort Time: {bubble_sort_time} seconds”)
 print(f”Merge Sort Comparisons: {len(my_list) * (len(my_list) - 1) // 2}”)
 print(f”Merge Sort Swaps: {len(my_list) * (len(my_list) - 1) // 2}”)
 print(f”Merge Sort Time: {merge_sort_time} seconds”)</p>
+
+<h1 id="bubble-sort-poopcorn-hack">
+<a class="anchor" href="#bubble-sort-poopcorn-hack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bubble Sort Poopcorn Hack</h1>
+
+<p>words = new_words()
+print(words)
+def bubbleSort(list):
+    n = len(list) - 1  # list are indexed 0 to n-1, len is n</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Traverse through list with i index
+for i in range(n):
+    swapped = False  # optimize code, so it exits if now swaps on inner loop
+
+    # Inner traversal using j index
+    for j in range(n-i):  # n-i as positions on right are in order in bubble
+ 
+        # Swap if the element KeyN is greater KeyN1
+        keyN = list[j]
+        keyN1 = list[j+1]
+        if keyN &gt; keyN1:
+            swapped = True
+            list[j], list[j + 1] = list[j + 1], list[j]  # single line swap
+     
+    if not swapped:  # if no swaps on inner pass, list is sorted
+        return  # exit function
+</code></pre></div></div>
+
+<p>bubbleSort(words)
+print(words)</p>
+
+<h1 id="selection-sort-poopcorn-hack">
+<a class="anchor" href="#selection-sort-poopcorn-hack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selection Sort Poopcorn Hack</h1>
+
+<p>words = new_words()
+print(words)
+def selectionSort(list):
+    n = len(list)  # length is n</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># List is traversed from index 0 to n-1, n elements
+for i in range(n):
+    smallI = i  # small index is captured
+    smallV = list[i]
+
+    # Inner traversal looks at elements after i
+    for j in range(i+1, n):
+        # Save reference if less
+        keyV = list[j]
+        if keyV &lt; smallV:
+            smallI = j  # small index is replaced
+            smallV = keyV
+    
+    # swap smallest to current i positon, sorting left to right
+    list[i], list[smallI] = list[smallI], list[i]  # single line swap 
+</code></pre></div></div>
+
+<p>selectionSort(words)
+print(words)</p>
 
   </div><a class="u-url" href="/Eli-1/fastpages/markdown/2023/05/23/sortingalgorithms.html" hidden></a>
 </article>
