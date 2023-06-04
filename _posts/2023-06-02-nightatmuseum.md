@@ -14,10 +14,15 @@ title: Night@Museum Tri 3
 
 ![photo]({{site.baseurl}}/images/.JPG)
 
-![photo]({{site.baseurl}}/images/.JPG)
+- 
 
 ![photo]({{site.baseurl}}/images/.JPG)
 
+- 
+
+![photo]({{site.baseurl}}/images/.JPG)
+
+- 
 
 # In the End
 
