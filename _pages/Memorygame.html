@@ -37,12 +37,6 @@ description:
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
       cursor: pointer;
       transition: background-color 0.3s ease;
-      transform: scale(1);
-    }
-    
-    .hole:hover {
-      background-color: #74b4c3;
-      transform: scale(1.1);
     }
     
     .mole {
@@ -62,24 +56,18 @@ description:
       transition: opacity 0.3s ease;
     }
     
-    .hole:hover .mole.active {
-      opacity: 0.8;
+    .hole:hover {
+      background-color: #74b4c3;
+    }
+    
+    .mole.active {
+      opacity: 1;
     }
     
     .score {
       text-align: center;
       font-size: 24px;
       margin-top: 20px;
-      color: #333;
-      font-weight: bold;
-    }
-    
-    h1 {
-      text-align: center;
-      color: #333;
-      font-size: 32px;
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
