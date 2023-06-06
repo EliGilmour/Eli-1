@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Night@Museum Tri 3",
-            "content": "Night@Museum . Night at the museum is a night at del norte from 6-7:30 pm and this is a night where family, friends, and students can come to del norte and take a trip around all of the elective classes. Ceramics, 3d Animation, Ap Computer Science, Drawing/Painting, and AP Art studio were displaying their Final projects to Friends and family. | ( This was a very fun night and I enjoyed looking at all of the art pieces and I can’t wait to be back again ) | . . . . In the End . Overall the expirence at the night of the museum was really fun and I love doing this every year and get to see many different great projects that people have really worked hard on and get to interact with your friends, or even people that you haven’t seen in a while. Overall 10/10. | .",
+            "content": "Night@Museum . Night at the museum is a night at del norte from 6-7:30 pm and this is a night where family, friends, and students can come to del norte and take a trip around all of the elective classes. Ceramics, 3d Animation, Ap Computer Science, Drawing/Painting, and AP Art studio were displaying their Final projects to Friends and family. | ( This was a very fun night and I enjoyed looking at all of the art pieces and I can’t wait to be back again ) | . . | . . | . . | . In the End . Overall the expirence at the night of the museum was really fun and I love doing this every year and get to see many different great projects that people have really worked hard on and get to interact with your friends, or even people that you haven’t seen in a while. Overall 10/10. | .",
             "url": "https://eligilmour.github.io/Eli-1/fastpages/markdown/2023/06/02/nightatmuseum.html",
             "relUrl": "/fastpages/markdown/2023/06/02/nightatmuseum.html",
             "date": " • Jun 2, 2023"
@@ -842,6 +842,17 @@
 
   
       ,"page2": {
+          "title": "Memory Matching Game",
+          "content": "Memory Game . .",
+          "url": "https://eligilmour.github.io/Eli-1/_pages/Memorygame.html",
+          "relUrl": "/_pages/Memorygame.html",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page3": {
           "title": "Number Guesser",
           "content": "Guess The Number . Home Guess the Number . Try to guess the number between 1 and 100. . Submit . .",
           "url": "https://eligilmour.github.io/Eli-1/_pages/Numbergusser.html",
@@ -852,7 +863,7 @@
   
 
   
-      ,"page3": {
+      ,"page4": {
           "title": "Theme Changer",
           "content": "Theme Changer . . Toggle Theme &lt;/html&gt; .",
           "url": "https://eligilmour.github.io/Eli-1/_pages/ThemeChanger.html",
@@ -863,7 +874,7 @@
   
 
   
-      ,"page4": {
+      ,"page5": {
           "title": "Vocab",
           "content": "Vocab list . Input: Data going into to the code Output: Data coming out of the code Sequence: two or more lines . Fastpages . An open source blogging tool with support for Jupyter notebook, markdown, and docs . File Types . .md: used to create web pages .ipynb: jupyter notebook uses python and .md in conjunction .html: similar to .md files, however, .html is more difficult to use but allows for more effects than .md .",
           "url": "https://eligilmour.github.io/Eli-1/vocab/",
@@ -874,7 +885,7 @@
   
 
   
-      ,"page5": {
+      ,"page6": {
           "title": "Frontend",
           "content": "| Overview | Javascript tutorial | API Stocks | td&gt; . &lt;/table",
           "url": "https://eligilmour.github.io/Eli-1/frontend/overview",
@@ -887,7 +898,7 @@
   
 
   
-      ,"page7": {
+      ,"page8": {
           "title": "Weekly work",
           "content": "Week Projects . 0 | My first jupyter notebook,—&gt; My First Markdown. | . 1 | Football quiz,—&gt; key tools check. | . 2 | changing a theme,—&gt; lists, Dictionaries, Iteration. | . 3 | Making quiz using app lab. | . 4 | collaboration Notes,—&gt;Psychology of Happiness. | . 5 | Javascript,—&gt; Final project plan | . 6 | college board quiz,—&gt; | . 7 | Stock Final Project plan,—&gt;Identifying and Correcting Errors Quiz | . 7 | Burger,Fries,Drink code Block Fix,—&gt; | .",
           "url": "https://eligilmour.github.io/Eli-1/WeeklyWork/",
@@ -928,7 +939,7 @@
   
 
   
-      ,"page20": {
+      ,"page21": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://eligilmour.github.io/Eli-1/robots.txt",
