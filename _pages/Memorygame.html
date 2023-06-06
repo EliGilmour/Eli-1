@@ -69,12 +69,20 @@
   <h1>Whack-a-Mole Game</h1>
   <div class="game-board"></div>
   <div class="score">Score: <span id="score">0</span></div>
+  <button id="startButton">Start</button>
+  <button id="stopButton">Stop</button>
+  <button id="restartButton">Restart</button>
 
   <script>
     const gameBoard = document.querySelector('.game-board');
     const scoreElement = document.getElementById('score');
+    const startButton = document.getElementById('startButton');
+    const stopButton = document.getElementById('stopButton');
+    const restartButton = document.getElementById('restartButton');
     let score = 0;
     let moleInterval;
+    let gameTimer;
+    let isGameRunning = false;
 
     function createHole() {
       const hole = document.createElement('div');
@@ -97,7 +105,10 @@
     }
 
     function startGame() {
+      if (isGameRunning) return;
+
       clearInterval(moleInterval);
+      clearInterval(gameTimer);
       score = 0;
       scoreElement.textContent = score;
       gameBoard.innerHTML = '';
@@ -106,6 +117,20 @@
         gameBoard.appendChild(hole);
       }
       moleInterval = setInterval(showRandomMole, 1000);
+      gameTimer = setInterval(stopGame, 10000); // 10 seconds time limit
+      isGameRunning = true;
+    }
+
+    function stopGame() {
+      clearInterval(moleInterval);
+      clearInterval(gameTimer);
+      isGameRunning = false;
+      alert('Game Over!');
+    }
+
+    function restartGame() {
+      stopGame();
+      startGame();
     }
 
     function whackMole() {
@@ -116,7 +141,9 @@
       }
     }
 
-    startGame();
+    startButton.addEventListener('click', startGame);
+    stopButton.addEventListener('click', stopGame);
+    restartButton.addEventListener('click', restartGame);
   </script>
 </body>
 </html>
