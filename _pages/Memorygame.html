@@ -4,7 +4,7 @@ layout: default
 description: 
 ---
 
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>Whack-a-Mole Game</title>
@@ -77,12 +77,14 @@ description:
   <div class="score">Score: <span id="score">0</span></div>
   <button id="startButton">Start</button>
   <button id="stopButton">Stop</button>
+  <button id="restartButton">Restart</button>
 
   <script>
     const gameBoard = document.querySelector('.game-board');
     const scoreElement = document.getElementById('score');
     const startButton = document.getElementById('startButton');
     const stopButton = document.getElementById('stopButton');
+    const restartButton = document.getElementById('restartButton');
     let score = 0;
     let moleInterval;
     let gameTimer;
@@ -132,6 +134,11 @@ description:
       alert('Game Over!');
     }
 
+    function restartGame() {
+      stopGame();
+      startGame();
+    }
+
     function whackMole() {
       if (this.querySelector('.mole').classList.contains('active')) {
         score++;
@@ -142,6 +149,7 @@ description:
 
     startButton.addEventListener('click', startGame);
     stopButton.addEventListener('click', stopGame);
+    restartButton.addEventListener('click', restartGame);
   </script>
 </body>
 </html>
