@@ -92,38 +92,38 @@ description:
 
     function createHole() {
       const hole = document.createElement('div');
-      hole.className = 'hole';
+      hole.className = 'hole'; // sets the classname to hole which assigns the css
       const mole = document.createElement('div');
-      mole.className = 'mole';
-      hole.appendChild(mole);
-      hole.addEventListener('click', whackMole);
-      return hole;
+      mole.className = 'mole'; // sets the classname to the mole and assigns the css
+      hole.appendChild(mole); // using append, puts the mole inside the hole
+      hole.addEventListener('click', whackMole); // if triggered then
+      return hole; // it returns that its clicked
     }
 
-    function showRandomMole() {
-      const holes = document.querySelectorAll('.hole');
-      const randomIndex = Math.floor(Math.random() * holes.length);
-      const mole = holes[randomIndex].querySelector('.mole');
+    function showRandomMole() {  
+      const holes = document.querySelectorAll('.hole'); // selects all the elements named mole that make the moles appear
+      const randomIndex = Math.floor(Math.random() * holes.length); // Generates random number between 0 and the number of moles
+      const mole = holes[randomIndex].querySelector('.mole'); // selects the mole selcetd within the selected mole
       mole.classList.add('active');
-      setTimeout(() => {
+      setTimeout(() => { 
         mole.classList.remove('active');
-      }, 1000);
+      }, 1000); //You get 1000 miliseconds or 1 second to click Mole
     }
 
-    function startGame() {
+    function startGame() { // First checks if the game is running
       if (isGameRunning) return;
 
       clearInterval(moleInterval);
       clearInterval(gameTimer);
-      score = 0;
+      score = 0;  // This code sets the score to zero when starting
       scoreElement.textContent = score;
       gameBoard.innerHTML = '';
-      for (let i = 0; i < 9; i++) {
-        const hole = createHole();
+      for (let i = 0; i < 9; i++) { //Runs a loop nine times to create new mole element
+        const hole = createHole(); 
         gameBoard.appendChild(hole);
       }
       moleInterval = setInterval(showRandomMole, 1000);
-      gameTimer = setInterval(stopGame, 10000); // 10 seconds time limit
+      gameTimer = setInterval(stopGame, 10000); // 10 second time limit
       isGameRunning = true;
     }
 
@@ -140,10 +140,10 @@ description:
     }
 
     function whackMole() {
-      if (this.querySelector('.mole').classList.contains('active')) {
+      if (this.querySelector('.mole').classList.contains('active')) { // checks if the mole element is active 
         score++;
-        this.querySelector('.mole').classList.remove('active');
-        scoreElement.textContent = score;
+        this.querySelector('.mole').classList.remove('active'); // when active, then means that the user whacked a mole
+        scoreElement.textContent = score; // adds 1 to score
       }
     }
 
