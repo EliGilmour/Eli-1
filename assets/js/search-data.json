@@ -885,20 +885,9 @@
   
 
   
-      ,"page6": {
-          "title": "Frontend",
-          "content": "| Overview | Javascript tutorial | API Stocks | td&gt; . &lt;/table",
-          "url": "https://eligilmour.github.io/Eli-1/frontend/overview",
-          "relUrl": "/frontend/overview",
-          "date": ""
-      }
-      
-  
 
   
-
-  
-      ,"page8": {
+      ,"page7": {
           "title": "Weekly work",
           "content": "Week Projects . 0 | My first jupyter notebook,—&gt; My First Markdown. | . 1 | Football quiz,—&gt; key tools check. | . 2 | changing a theme,—&gt; lists, Dictionaries, Iteration. | . 3 | Making quiz using app lab. | . 4 | collaboration Notes,—&gt;Psychology of Happiness. | . 5 | Javascript,—&gt; Final project plan | . 6 | college board quiz,—&gt; | . 7 | Stock Final Project plan,—&gt;Identifying and Correcting Errors Quiz | . 7 | Burger,Fries,Drink code Block Fix,—&gt; | .",
           "url": "https://eligilmour.github.io/Eli-1/WeeklyWork/",
@@ -939,7 +928,7 @@
   
 
   
-      ,"page21": {
+      ,"page20": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://eligilmour.github.io/Eli-1/robots.txt",
