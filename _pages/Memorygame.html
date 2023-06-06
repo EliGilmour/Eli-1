@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Memory Game</title>
+  <title>Whack-a-Mole Game</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,97 +15,108 @@
     .game-board {
       display: flex;
       flex-wrap: wrap;
-      width: 400px;
+      width: 300px;
     }
     
-    .card {
+    .hole {
+      position: relative;
       width: 80px;
       height: 80px;
-      background-color: #fff;
-      border-radius: 6px;
-      margin: 5px;
+      background-color: #98d8e5;
+      border-radius: 50%;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .mole {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #756f6f;
+      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 24px;
-      color: #444;
-      cursor: pointer;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.3s ease;
     }
     
-    .card.flipped {
-      transform: rotateY(180deg);
+    .hole:hover {
+      background-color: #74b4c3;
+    }
+    
+    .mole.active {
+      opacity: 1;
+    }
+    
+    .score {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+  <h1>Whack-a-Mole Game</h1>
   <div class="game-board"></div>
+  <div class="score">Score: <span id="score">0</span></div>
 
   <script>
-    const symbols = ['🌟', '🌈', '⭐', '🎉', '🐶', '🌺', '🍕', '🎲'];
-    const cards = symbols.concat(symbols);
-    let flippedCards = [];
-    let matchedCards = [];
+    const gameBoard = document.querySelector('.game-board');
+    const scoreElement = document.getElementById('score');
+    let score = 0;
+    let moleInterval;
 
-    function createCard(symbol) {
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = symbol;
-      card.addEventListener('click', flipCard);
-      return card;
+    function createHole() {
+      const hole = document.createElement('div');
+      hole.className = 'hole';
+      const mole = document.createElement('div');
+      mole.className = 'mole';
+      hole.appendChild(mole);
+      hole.addEventListener('click', whackMole);
+      return hole;
     }
 
-    function shuffleCards(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
+    function showRandomMole() {
+      const holes = document.querySelectorAll('.hole');
+      const randomIndex = Math.floor(Math.random() * holes.length);
+      const mole = holes[randomIndex].querySelector('.mole');
+      mole.classList.add('active');
+      setTimeout(() => {
+        mole.classList.remove('active');
+      }, 1000);
     }
 
-    function flipCard() {
-      if (flippedCards.length < 2 && !this.classList.contains('flipped') && !matchedCards.includes(this)) {
-        this.classList.add('flipped');
-        flippedCards.push(this);
-        
-        if (flippedCards.length === 2) {
-          setTimeout(checkMatch, 1000);
-        }
-      }
-    }
-
-    function checkMatch() {
-      const [card1, card2] = flippedCards;
-      if (card1.innerHTML === card2.innerHTML) {
-        matchedCards.push(card1, card2);
-        flippedCards = [];
-        if (matchedCards.length === cards.length) {
-          setTimeout(showGameOver, 500);
-        }
-      } else {
-        flippedCards.forEach(card => card.classList.remove('flipped'));
-        flippedCards = [];
-      }
-    }
-
-    function showGameOver() {
-      alert('Congratulations! You matched all the cards!');
-      resetGame();
-    }
-
-    function resetGame() {
-      const gameBoard = document.querySelector('.game-board');
+    function startGame() {
+      clearInterval(moleInterval);
+      score = 0;
+      scoreElement.textContent = score;
       gameBoard.innerHTML = '';
-      matchedCards = [];
-      flippedCards = [];
-      shuffleCards(cards);
-      cards.forEach(symbol => {
-        const card = createCard(symbol);
-        gameBoard.appendChild(card);
-      });
+      for (let i = 0; i < 9; i++) {
+        const hole = createHole();
+        gameBoard.appendChild(hole);
+      }
+      moleInterval = setInterval(showRandomMole, 1000);
     }
 
-    resetGame();
+    function whackMole() {
+      if (this.querySelector('.mole').classList.contains('active')) {
+        score++;
+        this.querySelector('.mole').classList.remove('active');
+        scoreElement.textContent = score;
+      }
+    }
+
+    startGame();
   </script>
 </body>
 </html>
